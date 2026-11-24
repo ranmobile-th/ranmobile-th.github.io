@@ -1,5 +1,13 @@
 // Release notes, newest first. t: new | imp | fix. Text in Thai (th) and English (en); other languages show English.
 window.CHANGELOG = [
+ {v:"1.1.365", date:"2026-11-24", items:[
+  {t:"new", c:{th:"บัญชี",en:"Account"}, th:["หน้าบัญชีใหม่","โปรไฟล์ตัวละคร เซิร์ฟเวอร์/แชนแนลจริง ความปลอดภัยบัญชี ช่วยเหลือ และข้อมูลมือถือพร้อมสเปกแนะนำ"], en:["New Account page","Character profile, real server/channel, account security, help, and your phone's details with recommended specs."]},
+  {t:"new", c:{th:"บัตร",en:"Cards"}, th:["ทรงผมครบตาม PC","บัตรเปลี่ยนทรงผมเลือกได้ทุกแบบเหมือน PC (9–25 แบบตามอาชีพ)"], en:["Every hair style from PC","The hair style card offers every style the PC has (9–25 by class)."]},
+  {t:"imp", c:{th:"ไอเท็มช็อป",en:"Item shop"}, th:["ตะกร้าเลื่อนดูได้","ตะกร้าแสดง 5 แถว ที่เหลือเลื่อนดูและเอาออกได้ปกติ"], en:["Scrolling cart","The cart shows 5 rows; the rest scroll and can be removed as usual."]},
+  {t:"imp", c:{th:"บัตร",en:"Cards"}, th:["หน้าต่างบัตรคิลฟีด","กรอบพอดีป้าย หน้าต่างกระชับ 6 แบบเรียงลงตัว"], en:["Kill feed card window","Frames hug the banners and the six styles fit neatly."]},
+  {t:"imp", c:{th:"สัตว์เลี้ยง",en:"Pets"}, th:["เลือกสกิลและบัตรสกิลคู่","มีไอคอนหน้าชื่อ ปุ่มจัดใหม่ และบอกสกิลที่ใช้อยู่"], en:["Pet skill and dual-skill pickers","Icons before names, tidier buttons, and the skill in use is marked."]},
+  {t:"fix", c:{th:"หน้าจอ",en:"Screen"}, th:["วงกลมเหลืองในหน้าต่าง","เอาวงกลมสีเหลืองออกจากหน้าต่างบัตรและหน้าต่างแจ้งผล"], en:["Yellow circles","Removed the yellow circles from card and result windows."]}
+ ]},
  {v:"1.1.364", date:"2026-11-24", items:[
   {t:"new", c:{th:"บัญชี",en:"Account"}, th:["เข้าเกมด้วยบัญชี Google","กดปุ่ม Google ครั้งแรก เกมสร้างไอดีให้อัตโนมัติ ครั้งต่อไปกดปุ่มเดิมก็เข้าบัญชีเดิม เปลี่ยนเครื่องก็ไม่หาย"], en:["Sign in with Google","The first tap on Google creates your game ID; the same button returns to it every time, even on a new phone."]},
   {t:"new", c:{th:"บัญชี",en:"Account"}, th:["ตั้งไอดี / เชื่อม Google ในหน้าตั้งค่า","บัญชีที่เข้าด้วย Google ตั้งไอดีและรหัสผ่านไว้ใช้ทาง PC ได้ ไอดีเดิมก็เชื่อมกับ Google ได้ที่ ตั้งค่า > บัญชี"], en:["Set ID / link Google in Settings","Google accounts can set their own ID and password for the PC client; existing IDs can link Google in Settings > Account."]},

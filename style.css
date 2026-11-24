@@ -261,3 +261,11 @@ footer a{color:var(--muted)}footer a:hover{color:var(--gold)}
 }
 /* Thai / CJK / Korean: wide tracking breaks combining vowels and looks loose */
 html:not([lang=en]):not([lang=vi]):not([lang=id]):not([lang=ms]) :is(.kicker,.btn,.chip,.pill,.tag,.navlinks a,.stats small,.specs small,.step small,.cls-tabs button,.school small,.release .meta,.counts small,.platform small,.platform .sub,.filters button,.rail button,.group h4,.entry .t,.req dt,.poster .cap p,.lang button){letter-spacing:.02em}
+
+/* 360 character turntable */
+.cls-art{cursor:grab;touch-action:pan-y;user-select:none;-webkit-user-select:none}
+.cls-art.turning{cursor:grabbing}
+.cls-art img{pointer-events:none}
+.turn-hint{position:absolute;left:50%;bottom:6px;transform:translateX(-50%);font-family:var(--label);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);background:rgba(8,11,17,.6);padding:4px 12px;border:1px solid var(--line-soft);white-space:nowrap}
+/* fire sparks */
+.sparks{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:45}

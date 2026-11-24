@@ -52,7 +52,7 @@
       return '<button role="tab" data-i="' + i + '" aria-selected="' + (i === cls) + '">' + esc(c.name) + "</button>";
     }).join("");
     var c = list[cls];
-    document.getElementById("clsart").innerHTML = ["m", "w"].map(function (g) { return '<img src="img/hero_' + art[cls] + "_" + g + '.png" alt="' + esc(c.name) + '">'; }).join("");
+    renderTurn(art[cls], c.name);
     document.getElementById("clschip").textContent = c.chip;
     document.getElementById("clsname").textContent = c.name;
     document.getElementById("clsdesc").textContent = c.desc;
@@ -131,6 +131,60 @@
     var io = new IntersectionObserver(function (es) { es.forEach(function (x) { if (x.isIntersecting) { x.target.classList.add("in"); io.unobserve(x.target); } }); }, { threshold: .12 });
     document.querySelectorAll(".reveal").forEach(function (el) { io.observe(el); });
   } else document.querySelectorAll(".reveal").forEach(function (el) { el.classList.add("in"); });
+
+  // ---- 360 turntable: 24 views per character, drag to turn, slow spin when idle ----
+  var FRAMES = 24, turnTimer = null, turnFrame = 0, lastTouch = 0, frameCache = {};
+  function frameUrl(base, g, n) { return "img/turn/" + base + "_" + g + "_" + (n < 10 ? "0" : "") + n + ".webp"; }
+  function preload(base) {
+    ["m", "w"].forEach(function (g) { for (var n = 0; n < FRAMES; n++) { var u = frameUrl(base, g, n); if (!frameCache[u]) { var im = new Image(); im.src = u; frameCache[u] = im; } } });
+  }
+  function renderTurn(base, name) {
+    var box = document.getElementById("clsart");
+    box.innerHTML = ["m", "w"].map(function (g) { return '<img data-g="' + g + '" src="' + frameUrl(base, g, turnFrame) + '" alt="' + esc(name) + '" draggable="false">'; }).join("") +
+      '<span class="turn-hint">' + esc(t("cls.drag")) + "</span>";
+    box.setAttribute("data-base", base); preload(base);
+  }
+  function showFrame() {
+    var box = document.getElementById("clsart"), base = box.getAttribute("data-base"); if (!base) return;
+    box.querySelectorAll("img").forEach(function (im) { im.src = frameUrl(base, im.getAttribute("data-g"), turnFrame); });
+  }
+  (function () {
+    var box = document.getElementById("clsart"), down = false, x0 = 0, f0 = 0;
+    box.addEventListener("pointerdown", function (e) { down = true; x0 = e.clientX; f0 = turnFrame; lastTouch = Date.now(); box.setPointerCapture(e.pointerId); box.classList.add("turning"); });
+    box.addEventListener("pointermove", function (e) { if (!down) return; var f = (f0 - Math.round((e.clientX - x0) / 14)) % FRAMES; if (f < 0) f += FRAMES; if (f !== turnFrame) { turnFrame = f; showFrame(); } lastTouch = Date.now(); });
+    function up() { down = false; box.classList.remove("turning"); lastTouch = Date.now(); }
+    box.addEventListener("pointerup", up); box.addEventListener("pointercancel", up);
+    if (!matchMedia("(prefers-reduced-motion: reduce)").matches)
+      turnTimer = setInterval(function () { if (!down && Date.now() - lastTouch > 2500) { turnFrame = (turnFrame + 1) % FRAMES; showFrame(); } }, 140);
+  })();
+
+  // ---- floating fire sparks over the whole page ----
+  (function () {
+    if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    var cv = document.createElement("canvas"); cv.className = "sparks"; cv.setAttribute("aria-hidden", "true"); document.body.appendChild(cv);
+    var ctx = cv.getContext("2d"), dpr = Math.min(2, window.devicePixelRatio || 1), W = 0, H = 0, ps = [];
+    function size() { W = innerWidth; H = innerHeight; cv.width = W * dpr; cv.height = H * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0); }
+    function spawn(p, fresh) {
+      p.x = Math.random() * W; p.y = fresh ? Math.random() * H : H + 10 + Math.random() * 40;
+      p.r = .6 + Math.random() * 1.8; p.vy = .25 + Math.random() * .8; p.vx = (Math.random() - .5) * .3;
+      p.life = 0; p.max = 260 + Math.random() * 420; p.w = Math.random() * 6.28; p.hue = 22 + Math.random() * 22; return p;
+    }
+    size(); addEventListener("resize", size);
+    var count = W < 700 ? 34 : 70; for (var i = 0; i < count; i++) ps.push(spawn({}, true));
+    function step() {
+      ctx.clearRect(0, 0, W, H); ctx.globalCompositeOperation = "lighter";
+      for (var i = 0; i < ps.length; i++) {
+        var p = ps[i]; p.life++; p.w += .03; p.x += p.vx + Math.sin(p.w) * .35; p.y -= p.vy;
+        var k = p.life / p.max, a = (k < .15 ? k / .15 : 1 - (k - .15) / .85) * .85;
+        if (k >= 1 || p.y < -20) { spawn(p, false); continue; }
+        var g = ctx.createRadialGradient(p.x, p.y, 0, p.x, p.y, p.r * 5);
+        g.addColorStop(0, "hsla(" + (p.hue + 18) + ",100%,75%," + a + ")"); g.addColorStop(.35, "hsla(" + p.hue + ",100%,55%," + a * .55 + ")"); g.addColorStop(1, "hsla(" + p.hue + ",100%,45%,0)");
+        ctx.fillStyle = g; ctx.beginPath(); ctx.arc(p.x, p.y, p.r * 5, 0, 6.283); ctx.fill();
+      }
+      ctx.globalCompositeOperation = "source-over"; requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  })();
 
   apply();
   // launch poster once per day
