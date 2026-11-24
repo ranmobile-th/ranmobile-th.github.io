@@ -1,5 +1,11 @@
 // Release notes, newest first. t: new | imp | fix. Text in Thai (th) and English (en); other languages show English.
 window.CHANGELOG = [
+ {v:"1.1.368", date:"2026-11-25", items:[
+  {t:"imp", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["ลื่นขึ้นในที่คนเยอะ","เอฟเฟคชุดและท่าทางของคนที่อยู่ไกลอัปเดตน้อยลง คนขี่พาหนะใช้เครื่องน้อยลงมาก"], en:["Smoother in crowds","Outfit effects and poses of far players update less often; riders cost far less."]},
+  {t:"fix", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["กระตุกเป็นจังหวะในตลาด","ไม่สะดุดตอนผู้เล่นจำนวนมากเปลี่ยนท่ายืนหรือโผล่กลับมาพร้อมกัน"], en:["Regular stutter in the market","No hitch when many players change stance or come back into view together."]},
+  {t:"fix", c:{th:"ไอเท็มช็อป",en:"Item shop"}, th:["ตะกร้าล้างหลังซื้อ","ซื้อจากตะกร้าแล้วตะกร้าว่างทุกครั้ง"], en:["Cart empties after buying","Buying from the cart always empties it."]},
+  {t:"fix", c:{th:"ไอเท็มช็อป",en:"Item shop"}, th:["หน้าต่างยืนยันไม่หาย","หน้าต่างยืนยัน ตะกร้า และของขวัญไม่ถูกหน้าร้านทับ"], en:["Confirm window stays","The confirm, cart and gift windows are no longer covered by the shop."]}
+ ]},
  {v:"1.1.367", date:"2026-11-25", items:[
   {t:"new", c:{th:"พาหนะ",en:"Vehicles"}, th:["พาหนะใหม่ 2 คัน","Kawasaki Z800 และสิงโต Cabal ขี่ได้แล้ว พร้อมแอนิเมชันและเอฟเฟคไฟ/ล้อ"], en:["Two more vehicles","The Kawasaki Z800 and the Cabal lion can be ridden, with their animations and light/wheel effects."]},
   {t:"new", c:{th:"GM",en:"GM"}, th:["ป้าย [GM]","GM มีป้าย [GM] สีเขียวหน้าชื่อ และเห็นชื่อตัวเองเป็นสีเขียวเหมือน PC"], en:["[GM] tag","GMs carry a green [GM] tag before their name and see their own name in green, as on PC."]},
