@@ -45,14 +45,14 @@
   }
 
   // classes
-  var art = [[0, 6], [1, 7], [8, 2], [9, 3], [4, 5]];
+  var art = ["brawler", "swordsman", "archer", "shaman"];   // full-body renders, male and female
   function renderClasses() {
     var list = t("classes"); if (!Array.isArray(list)) list = D.en.classes;
     document.getElementById("clstabs").innerHTML = list.map(function (c, i) {
       return '<button role="tab" data-i="' + i + '" aria-selected="' + (i === cls) + '">' + esc(c.name) + "</button>";
     }).join("");
     var c = list[cls];
-    document.getElementById("clsart").innerHTML = art[cls].map(function (n) { return '<img src="img/class' + n + '.png" alt="">'; }).join("");
+    document.getElementById("clsart").innerHTML = ["m", "w"].map(function (g) { return '<img src="img/hero_' + art[cls] + "_" + g + '.png" alt="' + esc(c.name) + '">'; }).join("");
     document.getElementById("clschip").textContent = c.chip;
     document.getElementById("clsname").textContent = c.name;
     document.getElementById("clsdesc").textContent = c.desc;

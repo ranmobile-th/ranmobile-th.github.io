@@ -98,11 +98,11 @@ section{position:relative;padding:88px 0}
 .cls-tabs{display:flex;gap:8px;margin:28px 0 18px;flex-wrap:wrap}
 .cls-tabs button{font-family:var(--label);font-weight:700;letter-spacing:.12em;font-size:13px;padding:10px 16px;border:1px solid var(--line-soft);background:var(--ground-2);color:var(--muted);cursor:pointer;text-transform:uppercase}
 .cls-tabs button[aria-selected=true]{color:var(--on-gold);background:linear-gradient(var(--gold-hi),var(--gold));border-color:transparent}
-.cls-stage{display:grid;grid-template-columns:1.1fr 1fr;gap:28px;align-items:center;padding:26px;min-height:360px;overflow:hidden}
-.cls-art{display:flex;justify-content:center;gap:0;position:relative;min-height:300px}
+.cls-stage{display:grid;grid-template-columns:1.1fr 1fr;gap:28px;align-items:center;padding:26px;min-height:480px;overflow:hidden}
+.cls-art{display:flex;justify-content:center;align-items:flex-end;gap:0;position:relative;min-height:440px}
 .cls-art:before{content:"";position:absolute;left:10%;right:10%;bottom:6%;height:40%;background:radial-gradient(ellipse,rgba(226,184,92,.25),transparent 70%)}
-.cls-art img{height:300px;width:auto;position:relative;filter:drop-shadow(0 18px 30px rgba(0,0,0,.6));transition:opacity .3s,transform .3s}
-.cls-art img+img{margin-left:-40px}
+.cls-art img{height:430px;width:auto;max-width:50%;object-fit:contain;position:relative;filter:drop-shadow(0 18px 30px rgba(0,0,0,.6));transition:opacity .3s,transform .3s}
+.cls-art img+img{margin-left:-24px}
 .cls-info h3{font-size:30px;margin:6px 0 10px}
 .cls-info p{color:#cfcbc1;margin:0 0 16px}
 .cls-info ul{margin:0;padding:0;list-style:none;display:grid;gap:8px}
@@ -252,7 +252,7 @@ footer a{color:var(--muted)}footer a:hover{color:var(--gold)}
   .stats{gap:24px}
   .steps,.schools,.get-grid,.feat-grid,.install-grid{grid-template-columns:1fr}
   .cls-stage{grid-template-columns:1fr;padding:18px}
-  .cls-art img{height:220px}
+  .cls-art img{height:300px}
   .counts{grid-template-columns:repeat(2,1fr)}
   .gallery{grid-template-columns:1fr 1fr}
   .entry{grid-template-columns:1fr;gap:6px}.entry .t{width:96px}
