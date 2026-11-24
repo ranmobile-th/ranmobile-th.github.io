@@ -5,6 +5,7 @@ window.LANGS = [
 ];
 window.I18N = {
 th: {
+ "nav.fb":"แฟนเพจ","cta.fb":"แฟนเพจ Facebook",
  "cls.drag":"ลากเพื่อหมุนตัวละคร",
  "nav.download":"ดาวน์โหลด","nav.new":"มีอะไรใหม่","nav.changelog":"บันทึกอัปเดต","nav.install":"วิธีติดตั้ง","nav.faq":"คำถาม","nav.get":"เข้าเล่นเลย",
  "hero.kicker":"เปิดทดสอบแล้ว · Android",
@@ -65,6 +66,7 @@ th: {
  ]
 },
 en: {
+ "nav.fb":"Fan page","cta.fb":"Facebook page",
  "cls.drag":"Drag to turn",
  "nav.download":"Download","nav.new":"What's new","nav.changelog":"Changelog","nav.install":"How to install","nav.faq":"FAQ","nav.get":"Play now",
  "hero.kicker":"Open beta · Android",
@@ -125,6 +127,7 @@ en: {
  ]
 },
 "zh-CN": {
+ "nav.fb":"粉丝页","cta.fb":"Facebook 粉丝页",
  "cls.drag":"拖动旋转",
  "nav.download":"下载","nav.new":"新内容","nav.changelog":"更新日志","nav.install":"安装方法","nav.faq":"常见问题","nav.get":"立即游戏",
  "hero.kicker":"公测开启 · Android","hero.desc":"三大学院，四大职业。选择你的阵营，参加学院战与公会战，并在游戏内用语音与队友交流。使用 Google 账号即可直接登录游玩。",
@@ -155,6 +158,7 @@ en: {
  "classes":[{"chip":"近战","name":"拳术系","desc":"身心同修，坚韧沉着，以拳脚冲锋在前。","pts":["高防御，站在前线","快速连击","战争中持久作战"]},{"chip":"近战","name":"剑术系","desc":"以剑传达身体与灵魂之力，可使用剑或长刀。","pts":["高物理伤害","范围横扫技能","两种剑类武器"]},{"chip":"远程","name":"弓箭系","desc":"凝神专注精准射击，在敌人靠近前远距离攻击。","pts":["攻击距离远","暴击强力","擅长区域控制"]},{"chip":"魔法","name":"气功系","desc":"运用魔法之力，既能施放元素攻击，也能支援队友。","pts":["治疗与团队增益","强力元素法术","队伍的核心"]}]
 },
 "zh-TW": {
+ "nav.fb":"粉絲專頁","cta.fb":"Facebook 粉絲專頁",
  "cls.drag":"拖曳旋轉",
  "nav.download":"下載","nav.new":"新內容","nav.changelog":"更新日誌","nav.install":"安裝方法","nav.faq":"常見問題","nav.get":"立即遊玩",
  "hero.kicker":"公測開啟 · Android","hero.desc":"三大學院，四大職業。選擇你的陣營，參加學院戰與公會戰，並在遊戲內用語音與隊友交流。使用 Google 帳號即可直接登入遊玩。",
@@ -185,6 +189,7 @@ en: {
  "classes":[{"chip":"近戰","name":"拳術系","desc":"身心同修，堅韌沉著，以拳腳衝鋒在前。","pts":["高防禦，站在前線","快速連擊","戰爭中持久作戰"]},{"chip":"近戰","name":"劍術系","desc":"以劍傳達身體與靈魂之力，可使用劍或長刀。","pts":["高物理傷害","範圍橫掃技能","兩種劍類武器"]},{"chip":"遠程","name":"弓箭系","desc":"凝神專注精準射擊，在敵人靠近前遠距離攻擊。","pts":["攻擊距離遠","爆擊強力","擅長區域控制"]},{"chip":"魔法","name":"氣功系","desc":"運用魔法之力，既能施放元素攻擊，也能支援隊友。","pts":["治療與團隊增益","強力元素法術","隊伍的核心"]}]
 },
 ko: {
+ "nav.fb":"팬페이지","cta.fb":"Facebook 팬페이지",
  "cls.drag":"드래그해서 회전",
  "nav.download":"다운로드","nav.new":"새 소식","nav.changelog":"업데이트 내역","nav.install":"설치 방법","nav.faq":"FAQ","nav.get":"지금 플레이",
  "hero.kicker":"오픈 베타 · Android","hero.desc":"세 개의 학원, 네 가지 클래스. 진영을 선택하고 학원전과 길드전에 참여하며 게임 안에서 음성으로 팀과 대화하세요. Google 계정으로 바로 시작할 수 있습니다.",
@@ -215,6 +220,7 @@ ko: {
  "classes":[{"chip":"근접","name":"격투","desc":"몸과 마음을 함께 단련하여 강인하고 침착하게, 주먹과 발로 가장 먼저 돌진합니다.","pts":["높은 방어력, 최전선","빠른 연속기","전쟁에서 오래 버팀"]},{"chip":"근접","name":"검술","desc":"검에 몸과 영혼의 힘을 담습니다. 검과 장검을 사용할 수 있습니다.","pts":["높은 물리 피해","범위 베기 스킬","두 종류의 검"]},{"chip":"원거리","name":"궁술","desc":"집중하여 정확하게 쏘고, 적이 다가오기 전에 멀리서 공격합니다.","pts":["긴 사거리","강력한 치명타","뛰어난 지역 제어"]},{"chip":"마법","name":"기예","desc":"마법의 힘으로 원소 공격을 하고 팀을 지원합니다.","pts":["회복과 팀 버프","강력한 원소 마법","파티의 핵심"]}]
 },
 ja: {
+ "nav.fb":"ファンページ","cta.fb":"Facebook ページ",
  "cls.drag":"ドラッグで回転",
  "nav.download":"ダウンロード","nav.new":"新着情報","nav.changelog":"更新履歴","nav.install":"インストール方法","nav.faq":"FAQ","nav.get":"今すぐプレイ",
  "hero.kicker":"オープンベータ · Android","hero.desc":"3つの学園、4つのクラス。陣営を選び、学園戦とギルド戦に挑み、ゲーム内ボイスで仲間と話そう。Google アカウントですぐに始められます。",
@@ -245,6 +251,7 @@ ja: {
  "classes":[{"chip":"近接","name":"格闘","desc":"心身を共に鍛え、タフで冷静。拳と蹴りで最前線に飛び込む。","pts":["高い防御、前衛","素早い連撃","戦争で粘り強い"]},{"chip":"近接","name":"剣術","desc":"剣に肉体と魂の力を込める。剣と長剣を扱える。","pts":["高い物理ダメージ","範囲なぎ払いスキル","2種類の剣"]},{"chip":"遠距離","name":"弓術","desc":"集中して正確に射抜き、敵が近づく前に遠くから攻撃する。","pts":["長い射程","強力なクリティカル","優れたエリア制圧"]},{"chip":"魔法","name":"気功","desc":"魔法の力で属性攻撃を放ち、仲間を支援する。","pts":["回復とチーム強化","強力な属性魔法","パーティーの要"]}]
 },
 vi: {
+ "nav.fb":"Fanpage","cta.fb":"Fanpage Facebook",
  "cls.drag":"Kéo để xoay",
  "nav.download":"Tải về","nav.new":"Có gì mới","nav.changelog":"Nhật ký cập nhật","nav.install":"Cách cài","nav.faq":"Hỏi đáp","nav.get":"Chơi ngay",
  "hero.kicker":"Mở thử nghiệm · Android","hero.desc":"Ba học viện. Bốn lớp nhân vật. Chọn phe, tham gia chiến tranh học viện và bang hội, trò chuyện bằng giọng nói với đồng đội ngay trong game. Đăng nhập bằng Google và chơi ngay.",
@@ -275,6 +282,7 @@ vi: {
  "classes":[{"chip":"Cận chiến","name":"Quyền thủ","desc":"Rèn luyện cả thân và tâm, mạnh mẽ và điềm tĩnh, xông lên đầu bằng quyền cước.","pts":["Phòng thủ cao, tuyến đầu","Combo liên hoàn nhanh","Trụ lâu trong chiến tranh"]},{"chip":"Cận chiến","name":"Kiếm sĩ","desc":"Truyền sức mạnh thể xác và linh hồn qua lưỡi kiếm, dùng kiếm hoặc trường đao.","pts":["Sát thương vật lý cao","Kỹ năng quét diện rộng","Hai loại kiếm"]},{"chip":"Tầm xa","name":"Cung thủ","desc":"Tập trung để bắn chính xác, tấn công từ xa trước khi kẻ địch áp sát.","pts":["Tầm đánh xa","Chí mạng mạnh","Khống chế khu vực tốt"]},{"chip":"Phép thuật","name":"Pháp sư","desc":"Dùng sức mạnh phép thuật để tấn công nguyên tố và hỗ trợ đồng đội.","pts":["Hồi máu và buff đội","Phép nguyên tố mạnh","Trái tim của tổ đội"]}]
 },
 id: {
+ "nav.fb":"Fanpage","cta.fb":"Fanpage Facebook",
  "cls.drag":"Geser untuk memutar",
  "nav.download":"Unduh","nav.new":"Yang baru","nav.changelog":"Catatan pembaruan","nav.install":"Cara instal","nav.faq":"FAQ","nav.get":"Main sekarang",
  "hero.kicker":"Open beta · Android","hero.desc":"Tiga sekolah. Empat kelas. Pilih pihakmu, ikuti perang sekolah dan guild, dan ngobrol dengan tim lewat voice chat di dalam game. Masuk dengan Google dan langsung main.",
@@ -305,6 +313,7 @@ id: {
  "classes":[{"chip":"Jarak dekat","name":"Petarung","desc":"Melatih tubuh dan pikiran sekaligus: tangguh, tenang, dan paling depan dengan tinju dan tendangan.","pts":["Pertahanan tinggi, garis depan","Kombo cepat beruntun","Tahan lama dalam perang"]},{"chip":"Jarak dekat","name":"Pendekar Pedang","desc":"Menyalurkan kekuatan tubuh dan jiwa lewat bilah pedang, dengan pedang atau pedang panjang.","pts":["Damage fisik tinggi","Skill sapuan area","Dua jenis pedang"]},{"chip":"Jarak jauh","name":"Pemanah","desc":"Fokus untuk tembakan presisi, menyerang dari jauh sebelum musuh mendekat.","pts":["Jangkauan serang jauh","Critical kuat","Kontrol area yang baik"]},{"chip":"Sihir","name":"Penyihir","desc":"Menggunakan kekuatan sihir untuk serangan elemen dan mendukung tim.","pts":["Penyembuhan dan buff tim","Sihir elemen kuat","Jantung party"]}]
 },
 ms: {
+ "nav.fb":"Fanpage","cta.fb":"Fanpage Facebook",
  "cls.drag":"Seret untuk memusing",
  "nav.download":"Muat turun","nav.new":"Apa yang baharu","nav.changelog":"Log kemas kini","nav.install":"Cara pasang","nav.faq":"Soalan","nav.get":"Main sekarang",
  "hero.kicker":"Beta terbuka · Android","hero.desc":"Tiga sekolah. Empat kelas. Pilih pihak anda, sertai perang sekolah dan guild, dan berbual dengan pasukan melalui sembang suara dalam permainan. Log masuk dengan Google dan terus bermain.",
