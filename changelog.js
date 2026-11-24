@@ -1,6 +1,6 @@
 // Release notes, newest first. t: new | imp | fix. Text in Thai (th) and English (en); other languages show English.
 window.CHANGELOG = [
- {v:"1.1.364", upcoming:true, items:[
+ {v:"1.1.364", date:"2026-11-24", items:[
   {t:"new", c:{th:"บัญชี",en:"Account"}, th:["เข้าเกมด้วยบัญชี Google","กดปุ่ม Google ครั้งแรก เกมสร้างไอดีให้อัตโนมัติ ครั้งต่อไปกดปุ่มเดิมก็เข้าบัญชีเดิม เปลี่ยนเครื่องก็ไม่หาย"], en:["Sign in with Google","The first tap on Google creates your game ID; the same button returns to it every time, even on a new phone."]},
   {t:"new", c:{th:"บัญชี",en:"Account"}, th:["ตั้งไอดี / เชื่อม Google ในหน้าตั้งค่า","บัญชีที่เข้าด้วย Google ตั้งไอดีและรหัสผ่านไว้ใช้ทาง PC ได้ ไอดีเดิมก็เชื่อมกับ Google ได้ที่ ตั้งค่า > บัญชี"], en:["Set ID / link Google in Settings","Google accounts can set their own ID and password for the PC client; existing IDs can link Google in Settings > Account."]},
   {t:"imp", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["เครื่องสเปกต่ำในที่คนเยอะ","เมื่อระบบลดภาระทำงานหนัก จะแสดงเต็มตัวเฉพาะผู้เล่นใกล้ๆ ชั่วคราว (ต่ำสุด 20 คน) คนที่ไกลเห็นแค่ชื่อ"], en:["Low-end phones in crowds","When the load guard works hard, only nearby players are drawn in full for a while (at least 20); farther players show their name."]}
