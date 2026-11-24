@@ -1,5 +1,10 @@
 // Release notes, newest first. t: new | imp | fix. Text in Thai (th) and English (en); other languages show English.
 window.CHANGELOG = [
+ {v:"1.1.366", date:"2026-11-24", items:[
+  {t:"new", c:{th:"เซิร์ฟเวอร์",en:"Server"}, th:["เปิดเซิร์ฟทดสอบรอบใหม่","ล้างข้อมูลทั้งหมด ทุกคนเริ่มใหม่พร้อมกัน อันดับโลกและกิลด์เริ่มจากศูนย์"], en:["Fresh test server","All data was reset: everyone starts together, and the world ranking and guilds start from zero."]},
+  {t:"imp", c:{th:"ตัวละคร",en:"Character"}, th:["เลเวลสูงสุด 195","เลเวลสูงสุดกลับมาเป็น 195"], en:["Level cap 195","The level cap is back to 195."]},
+  {t:"imp", c:{th:"บัญชี",en:"Account"}, th:["ปุ่มเว็บไซต์","ปุ่มในหน้าบัญชีเปิดหน้าเว็บหลักของเกม"], en:["Website button","The button on the Account page opens the game's website."]}
+ ]},
  {v:"1.1.365", date:"2026-11-24", items:[
   {t:"new", c:{th:"บัญชี",en:"Account"}, th:["หน้าบัญชีใหม่","โปรไฟล์ตัวละคร เซิร์ฟเวอร์/แชนแนลจริง ความปลอดภัยบัญชี ช่วยเหลือ และข้อมูลมือถือพร้อมสเปกแนะนำ"], en:["New Account page","Character profile, real server/channel, account security, help, and your phone's details with recommended specs."]},
   {t:"new", c:{th:"บัตร",en:"Cards"}, th:["ทรงผมครบตาม PC","บัตรเปลี่ยนทรงผมเลือกได้ทุกแบบเหมือน PC (9–25 แบบตามอาชีพ)"], en:["Every hair style from PC","The hair style card offers every style the PC has (9–25 by class)."]},
