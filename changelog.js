@@ -1,5 +1,12 @@
 // Release notes, newest first. t: new | imp | fix. Text in Thai (th) and English (en); other languages show English.
 window.CHANGELOG = [
+ {v:"1.1.367", date:"2026-11-25", items:[
+  {t:"new", c:{th:"พาหนะ",en:"Vehicles"}, th:["พาหนะใหม่ 2 คัน","Kawasaki Z800 และสิงโต Cabal ขี่ได้แล้ว พร้อมแอนิเมชันและเอฟเฟคไฟ/ล้อ"], en:["Two more vehicles","The Kawasaki Z800 and the Cabal lion can be ridden, with their animations and light/wheel effects."]},
+  {t:"new", c:{th:"GM",en:"GM"}, th:["ป้าย [GM]","GM มีป้าย [GM] สีเขียวหน้าชื่อ และเห็นชื่อตัวเองเป็นสีเขียวเหมือน PC"], en:["[GM] tag","GMs carry a green [GM] tag before their name and see their own name in green, as on PC."]},
+  {t:"fix", c:{th:"กิลด์",en:"Guild"}, th:["จำนวนสมาชิกสูงสุด","หน้าต่างกิลด์แสดงสมาชิกสูงสุด 24 คนตรงกับเซิร์ฟเวอร์"], en:["Member limit","The guild window shows the real limit of 24 members."]},
+  {t:"fix", c:{th:"หน้าต่าง",en:"Windows"}, th:["โมเดลไม่กระพริบ","หน้าต่างสัตว์เลี้ยงและพาหนะไม่กระพริบอีก"], en:["No more blinking models","The pet and vehicle windows no longer blink."]},
+  {t:"fix", c:{th:"พาหนะ",en:"Vehicles"}, th:["เท็กซ์เจอร์ Ninja 2017","เติมเท็กซ์เจอร์ตัวถังที่ขาด"], en:["Ninja 2017 texture","Added a missing body texture."]}
+ ]},
  {v:"1.1.366", date:"2026-11-24", items:[
   {t:"new", c:{th:"เซิร์ฟเวอร์",en:"Server"}, th:["เปิดเซิร์ฟทดสอบรอบใหม่","ล้างข้อมูลทั้งหมด ทุกคนเริ่มใหม่พร้อมกัน อันดับโลกและกิลด์เริ่มจากศูนย์"], en:["Fresh test server","All data was reset: everyone starts together, and the world ranking and guilds start from zero."]},
   {t:"imp", c:{th:"ตัวละคร",en:"Character"}, th:["เลเวลสูงสุด 195","เลเวลสูงสุดกลับมาเป็น 195"], en:["Level cap 195","The level cap is back to 195."]},
