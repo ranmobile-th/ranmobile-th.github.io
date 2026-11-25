@@ -1,5 +1,9 @@
 // Release notes, newest first. t: new | imp | fix. Text in Thai (th) and English (en); other languages show English.
 window.CHANGELOG = [
+ {v:"1.1.370", date:"2026-11-25", items:[
+  {t:"fix", c:{th:"เข้าเกม",en:"Joining"}, th:["ลองเข้าเกมใหม่อัตโนมัติ","ถ้าตัวละครยังค้างออนไลน์จากรอบก่อน แอปจะลองเข้าเกมให้อีกครั้งเอง"], en:["Automatic retry","If your character was still online from a previous session, the app tries again by itself."]},
+  {t:"imp", c:{th:"หน้าจอ",en:"Screen"}, th:["ข้อความภาษาไทยล้วน","ข้อความเข้าเกม/ล็อกอินไม่สำเร็จไม่มีภาษาอังกฤษต่อท้ายแล้ว"], en:["Thai-only messages","Join and sign-in failure messages no longer carry English text."]}
+ ]},
  {v:"1.1.369", date:"2026-11-25", items:[
   {t:"new", c:{th:"กิลด์",en:"Guild"}, th:["ป็อปอัปคำขอเข้ากิลด์","หัวกิลด์ได้ป็อปอัปทันทีทุกแมพ กดรับเข้ากิลด์หรือปฏิเสธได้เลย ผู้สมัครได้คำตอบทันที"], en:["Guild request popup","Guild masters get a popup on any map to accept or decline; applicants hear back at once."]},
   {t:"imp", c:{th:"กิลด์",en:"Guild"}, th:["เข้ากิลด์อัตโนมัติ","ถ้ารับแล้วแต่อยู่คนละที่ จะเชิญอัตโนมัติเมื่อเจอกันในแชนแนลเดียวกัน และผู้สมัครไม่ต้องกดยืนยันซ้ำ"], en:["Automatic join","If accepted while apart, the invite goes out automatically when you meet on the same channel, with no second confirm."]}
