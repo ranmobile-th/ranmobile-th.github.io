@@ -1,5 +1,9 @@
 // Release notes, newest first. t: new | imp | fix. Text in Thai (th) and English (en); other languages show English.
 window.CHANGELOG = [
+ {v:"1.1.380", date:"2026-11-26", items:[
+  {t:"imp", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["เงาวงกลมสำหรับคนไกล","คนที่อยู่นอก 40 คนใกล้สุดมีเงากลมนุ่มใต้เท้า วาดรวมครั้งเดียว ไม่กินเครื่อง"], en:["Round shadows for far players","Players outside the nearest 40 get a soft round shadow under their feet, drawn all at once at almost no cost."]},
+  {t:"imp", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["แมพเบาลง","ชิ้นส่วนแมพที่ใช้ลายเดียวกันวาดรวมกัน และของชิ้นเล็กที่อยู่หลังหมอกไม่ถูกวาด ภาพเหมือนเดิม"], en:["Lighter maps","Map pieces with the same texture are drawn together, and small objects hidden by the fog are skipped, with the same picture."]}
+ ]},
  {v:"1.1.379", date:"2026-11-26", items:[
   {t:"imp", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["ลื่นขึ้นมากตอนคนเยอะ","วาดเงาเฉพาะ 40 คนที่ใกล้ที่สุด และรวมโมเดลคนไกลได้มากขึ้น FPS สูงขึ้นในเมืองและตอนตีบอส"], en:["Much smoother in crowds","Shadows are drawn for the 40 nearest players only and more far players are merged, for higher FPS in towns and boss fights."]},
   {t:"imp", c:{th:"กราฟิก",en:"Graphics"}, th:["วาดตัวละครเร็วขึ้น ภาพคมเหมือนเดิม","มือถือ RAM 8 GB ขึ้นไปรวมลายชุดของคนไกลเป็นแผ่นเดียว ลดงานวาดลงครึ่งหนึ่ง"], en:["Faster character drawing, same sharpness","Phones with 8 GB+ RAM combine far players' outfit textures into one, halving the draw work."]},
