@@ -1,5 +1,9 @@
 // Release notes, newest first. t: new | imp | fix. Text in Thai (th) and English (en); other languages show English.
 window.CHANGELOG = [
+ {v:"1.1.371", date:"2026-11-25", items:[
+  {t:"imp", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["ผู้เล่นอื่นโผล่เร็วขึ้น","ตอนเข้าเกมหรือเข้าที่คนเยอะ ตัวละครคนอื่นปรากฏเร็วขึ้นหลายเท่า คนในจอมาก่อน"], en:["Other players appear faster","After joining or in crowds other players show up several times faster, on-screen ones first."]},
+  {t:"imp", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["ไม่สร้างตัวที่ไม่แสดง","คนไกลที่เกินจำนวนผู้เล่นที่แสดง จะสร้างเมื่อมีที่ว่างหรือเข้ามาใกล้"], en:["No hidden builds","Far players beyond the shown limit are built only when there is room or they come closer."]}
+ ]},
  {v:"1.1.370", date:"2026-11-25", items:[
   {t:"fix", c:{th:"เข้าเกม",en:"Joining"}, th:["ลองเข้าเกมใหม่อัตโนมัติ","ถ้าตัวละครยังค้างออนไลน์จากรอบก่อน แอปจะลองเข้าเกมให้อีกครั้งเอง"], en:["Automatic retry","If your character was still online from a previous session, the app tries again by itself."]},
   {t:"imp", c:{th:"หน้าจอ",en:"Screen"}, th:["ข้อความภาษาไทยล้วน","ข้อความเข้าเกม/ล็อกอินไม่สำเร็จไม่มีภาษาอังกฤษต่อท้ายแล้ว"], en:["Thai-only messages","Join and sign-in failure messages no longer carry English text."]}
