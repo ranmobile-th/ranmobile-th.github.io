@@ -1,5 +1,13 @@
 // Release notes, newest first. t: new | imp | fix. Text in Thai (th) and English (en); other languages show English.
 window.CHANGELOG = [
+ {v:"1.1.376", date:"2026-11-25", items:[
+  {t:"fix", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["ท่าทางคนรอบตัวไม่กระตุก","ตอนมีคนเดินเข้ามาใกล้หรือถูกเลือกเป็นเป้า คนรอบข้างไม่สลับท่าเพี้ยนอีก"], en:["No pose glitches in crowds","Nearby players no longer jump to a wrong pose when someone walks up or is targeted."]},
+  {t:"fix", c:{th:"ตลาด",en:"Market"}, th:["ชื่อร้านค้าปลอดภัย","ชื่อร้านค้าส่วนตัวแสดงตามตัวอักษร ใช้โค้ดตกแต่งบังจอคนอื่นไม่ได้"], en:["Safe stall titles","Private shop titles show as plain text and can no longer cover other players' screens."]},
+  {t:"fix", c:{th:"กิลด์",en:"Guild"}, th:["คำขอเข้ากิลด์ปลอดภัยขึ้น","รับ/ปฏิเสธนับเฉพาะจากหัวกิลด์ที่ขอไป และไม่เด้งป็อปอัปซ้ำเมื่อขอซ้ำ"], en:["Safer guild requests","Accept/decline only counts from the master you asked, and repeated requests no longer spam popups."]},
+  {t:"fix", c:{th:"บอส",en:"Boss"}, th:["บอสไม่ขึ้นผิดแมพ","หน้าต่างติดตามบอสโหมดตามบอสแสดงบอสตรงแมพเสมอ"], en:["Bosses on the right map","The boss tracker's by-boss view always lists bosses under the right map."]},
+  {t:"fix", c:{th:"เกม",en:"Game"}, th:["เกมเสถียรขึ้น","กระเป๋าไม่หายจากจอเมื่อข้อมูลมาไม่ครบ ประกาศสงครามไม่หาย และไม่เข้าเกมซ้ำสองรอบ"], en:["More stable","Bag items no longer vanish on partial data, war notices are kept, and no double join."]},
+  {t:"fix", c:{th:"หน้าจอ",en:"Screen"}, th:["ปุ่ม Back ฉลาดขึ้น","ไม่ไปปิดหน้าต่างข้างใต้ตอนหน้าตายหรือขาดการเชื่อมต่อ และใช้ได้ทุกภาษา"], en:["Smarter Back button","No longer closes hidden windows under the death or disconnect screen, and works in every language."]}
+ ]},
  {v:"1.1.375", date:"2026-11-25", items:[
   {t:"imp", c:{th:"ความลื่น",en:"Performance"}, th:["ลื่นขึ้นตอนคนเยอะ","คำนวณท่าทางตัวละครรอบตัวด้วยหลายคอร์ และลดงานของผู้เล่นที่ยืนอยู่ไกล"], en:["Smoother in crowds","Nearby characters' poses are computed on several cores, and far idle players cost less."]},
   {t:"imp", c:{th:"กาชา",en:"Gacha"}, th:["กล่องกาชาโฉมใหม่","คาดทองเงาสะท้อนแสง และลายไม้วอลนัทสมจริงขึ้น"], en:["New gacha chest look","Polished reflective gold bands and realistic walnut wood."]},
