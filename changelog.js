@@ -1,5 +1,10 @@
 // Release notes, newest first. t: new | imp | fix. Text in Thai (th) and English (en); other languages show English.
 window.CHANGELOG = [
+ {v:"1.1.377", date:"2026-11-25", items:[
+  {t:"imp", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["มือถือสเปกต่ำลื่นขึ้น","เครื่องสเปกต่ำเริ่มลดจำนวนคนที่วาดทันทีที่ FPS ตก และอัปเดตคนที่ซ่อนอยู่น้อยลง"], en:["Smoother on low-end phones","Low-end phones start limiting drawn players as soon as FPS drops, and hidden players update less often."]},
+  {t:"imp", c:{th:"กราฟิก",en:"Graphics"}, th:["ตั้งค่าเบาสำหรับเครื่องสเปกต่ำ","เครื่องสเปกต่ำใช้ชุดเบา 30 FPS นิ่ง ปิดแสงชุดและเงาคนอื่น เห็นสกิลเฉพาะของเรา (ปรับขึ้นเองได้ในตั้งค่า)"], en:["Light settings for low-end phones","Low-end phones use a light set at a steady 30 FPS, other players' outfit effects and shadows off, own skills only (can be raised in Options)."]},
+  {t:"imp", c:{th:"เซิร์ฟเวอร์",en:"Server"}, th:["เซิร์ฟตอบสนองไวขึ้น","เซิร์ฟประมวลผลเร็วขึ้นราว 2 เท่าตอนคนเยอะ ตีและใช้สกิลแล้วเห็นผลไวขึ้น"], en:["Faster server response","The server works about twice as fast in crowds, so hits and skills land sooner."]}
+ ]},
  {v:"1.1.376", date:"2026-11-25", items:[
   {t:"fix", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["ท่าทางคนรอบตัวไม่กระตุก","ตอนมีคนเดินเข้ามาใกล้หรือถูกเลือกเป็นเป้า คนรอบข้างไม่สลับท่าเพี้ยนอีก"], en:["No pose glitches in crowds","Nearby players no longer jump to a wrong pose when someone walks up or is targeted."]},
   {t:"fix", c:{th:"ตลาด",en:"Market"}, th:["ชื่อร้านค้าปลอดภัย","ชื่อร้านค้าส่วนตัวแสดงตามตัวอักษร ใช้โค้ดตกแต่งบังจอคนอื่นไม่ได้"], en:["Safe stall titles","Private shop titles show as plain text and can no longer cover other players' screens."]},
