@@ -1,5 +1,10 @@
 // Release notes, newest first. t: new | imp | fix. Text in Thai (th) and English (en); other languages show English.
 window.CHANGELOG = [
+ {v:"1.1.372", date:"2026-11-25", items:[
+  {t:"new", c:{th:"กราฟิก",en:"Graphics"}, th:["กราฟิกสำเร็จรูป \"ลื่นสุด\"","เห็นทุกคนเต็มตัว ปิดเงา แสงเรือง ผลหลังภาพ และแสงชุดของคนอื่น (ของเรายังแสดง) ไม่จำกัด FPS"], en:["\"Smoothest\" preset","Everyone drawn in full; shadows, glow, post effects and other players' outfit effects off (yours stay); no FPS cap."]},
+  {t:"new", c:{th:"กราฟิก",en:"Graphics"}, th:["สวิตช์แสงชุดของผู้เล่นอื่น","ปิดแสงชุด อาวุธ และออร่าของคนอื่นได้ ของเรายังแสดง"], en:["Other players' outfit effects switch","Turn off other players' outfit, weapon and aura effects; yours stay."]},
+  {t:"imp", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["แสงชุดตีบวกเบาลง","แสงกระพริบของชุดตีบวกคำนวณบนการ์ดจอ ลดภาระ CPU ตอนคนเยอะ"], en:["Lighter grade glow","The enhancement glow pulse runs on the GPU, easing the CPU in crowds."]}
+ ]},
  {v:"1.1.371", date:"2026-11-25", items:[
   {t:"imp", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["ผู้เล่นอื่นโผล่เร็วขึ้น","ตอนเข้าเกมหรือเข้าที่คนเยอะ ตัวละครคนอื่นปรากฏเร็วขึ้นหลายเท่า คนในจอมาก่อน"], en:["Other players appear faster","After joining or in crowds other players show up several times faster, on-screen ones first."]},
   {t:"imp", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["ไม่สร้างตัวที่ไม่แสดง","คนไกลที่เกินจำนวนผู้เล่นที่แสดง จะสร้างเมื่อมีที่ว่างหรือเข้ามาใกล้"], en:["No hidden builds","Far players beyond the shown limit are built only when there is room or they come closer."]}
