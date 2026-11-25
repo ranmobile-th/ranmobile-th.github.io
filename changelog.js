@@ -1,5 +1,11 @@
 // Release notes, newest first. t: new | imp | fix. Text in Thai (th) and English (en); other languages show English.
 window.CHANGELOG = [
+ {v:"1.1.375", date:"2026-11-25", items:[
+  {t:"imp", c:{th:"ความลื่น",en:"Performance"}, th:["ลื่นขึ้นตอนคนเยอะ","คำนวณท่าทางตัวละครรอบตัวด้วยหลายคอร์ และลดงานของผู้เล่นที่ยืนอยู่ไกล"], en:["Smoother in crowds","Nearby characters' poses are computed on several cores, and far idle players cost less."]},
+  {t:"imp", c:{th:"กาชา",en:"Gacha"}, th:["กล่องกาชาโฉมใหม่","คาดทองเงาสะท้อนแสง และลายไม้วอลนัทสมจริงขึ้น"], en:["New gacha chest look","Polished reflective gold bands and realistic walnut wood."]},
+  {t:"fix", c:{th:"เกม",en:"Game"}, th:["แอปเด้งปิดเอง","แก้สาเหตุแอปปิดตัวเองเมื่อมีตัวละครรอบตัวมาก"], en:["App closing itself","Fixed the cause of the app closing itself around many characters."]},
+  {t:"imp", c:{th:"เมนู",en:"Menu"}, th:["เอาป็อกเด้งออก","ปิดปุ่มและเมนูป็อกเด้ง"], en:["Pok Deng removed","The Pok Deng button and menu entry are gone."]}
+ ]},
  {v:"1.1.374", date:"2026-11-25", items:[
   {t:"new", c:{th:"เติมเงิน",en:"Top-up"}, th:["ประวัติเติมเงิน","ดูยอดเติมรวม พ้อยที่ได้ สถานะแต่ละรายการ และยอดโปรสะสม 1K/3K/4K/6K"], en:["Top-up history","Lifetime total, points received, each payment's status and the 1K/3K/4K/6K promo progress."]},
   {t:"fix", c:{th:"เกม",en:"Game"}, th:["แอปเด้งปิดเอง","แก้แอปปิดตัวเองระหว่างเล่นใน 1.1.373"], en:["App closing itself","Fixed the app closing itself in game on 1.1.373."]}
