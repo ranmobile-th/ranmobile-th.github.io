@@ -1,5 +1,11 @@
 // Release notes, newest first. t: new | imp | fix. Text in Thai (th) and English (en); other languages show English.
 window.CHANGELOG = [
+ {v:"1.1.373", date:"2026-11-25", items:[
+  {t:"new", c:{th:"กาชา",en:"Gacha"}, th:["กาชาเข็มขัดวิญญาณมังกร","ตู้ใหม่ในหมวดเข็มขัด แทนตู้ต่างหูเดิม"], en:["Dragon Spirit belt gacha","A new belt gacha replaces the old earring gachas."]},
+  {t:"imp", c:{th:"ตลาด",en:"Market"}, th:["แลกเกลือ 7 สูตร","NPC แลกเกลือมีสูตรแลกกล่องเพิ่ม และย้ายมายืนที่ใหม่"], en:["Scale exchange: 7 recipes","The scale exchange NPC has more box recipes and a new spot."]},
+  {t:"imp", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["ท่าทางคนไกลใช้หลายแกน CPU","ในที่คนเยอะ ท่ายืน/เดินของคนที่อยู่ไกลคำนวณพร้อมกันหลายแกน ลื่นขึ้น"], en:["Multi-core poses for far players","In crowds, far players' stand/walk poses are worked out on several CPU cores."]},
+  {t:"fix", c:{th:"กาชา",en:"Gacha"}, th:["เอาตู้ที่ปิดออก","ตู้อาวุธอัคคีพิพากษาและตู้ต่างหูเอาออกจากหน้าต่างกาชา"], en:["Removed gachas","The Akkhi weapon gacha and the earring gachas are gone from the gacha window."]}
+ ]},
  {v:"1.1.372", date:"2026-11-25", items:[
   {t:"new", c:{th:"กราฟิก",en:"Graphics"}, th:["กราฟิกสำเร็จรูป \"ลื่นสุด\"","เห็นทุกคนเต็มตัว ปิดเงา แสงเรือง ผลหลังภาพ และแสงชุดของคนอื่น (ของเรายังแสดง) ไม่จำกัด FPS"], en:["\"Smoothest\" preset","Everyone drawn in full; shadows, glow, post effects and other players' outfit effects off (yours stay); no FPS cap."]},
   {t:"new", c:{th:"กราฟิก",en:"Graphics"}, th:["สวิตช์แสงชุดของผู้เล่นอื่น","ปิดแสงชุด อาวุธ และออร่าของคนอื่นได้ ของเรายังแสดง"], en:["Other players' outfit effects switch","Turn off other players' outfit, weapon and aura effects; yours stay."]},
