@@ -7,7 +7,7 @@ window.I18N = {
 th: {
  "nav.fb":"แฟนเพจ","cta.fb":"แฟนเพจ Facebook",
  "cls.drag":"ลากเพื่อหมุนตัวละคร",
- "nav.download":"ดาวน์โหลด","nav.new":"มีอะไรใหม่","nav.changelog":"บันทึกอัปเดต","nav.install":"วิธีติดตั้ง","nav.faq":"คำถาม","nav.get":"เข้าเล่นเลย",
+ "nav.download":"ดาวน์โหลด","nav.new":"มีอะไรใหม่","nav.changelog":"บันทึกอัปเดต","nav.install":"วิธีติดตั้ง","nav.guide":"คู่มือเกม","nav.faq":"คำถาม","nav.get":"เข้าเล่นเลย",
  "hero.kicker":"เปิดทดสอบแล้ว · Android",
  "hero.desc":"3 สถาบัน 4 สายอาชีพ เลือกฝั่งของคุณ บุกสงครามสถาบันและกิลด์ คุยเสียงกับเพื่อนร่วมทีมในเกม เข้าเล่นด้วยบัญชี Google ได้ทันที ไม่ต้องสมัคร",
  "cta.android":"ANDROID · ดาวน์โหลด","cta.ios":"iPhone · เร็วๆ นี้","cta.androidapk":"ดาวน์โหลด Android (APK)","cta.howto":"วิธีติดตั้ง","cta.downloadapk":"ดาวน์โหลด APK","cta.contact":"ติดต่อทีมงาน",
@@ -68,7 +68,7 @@ th: {
 en: {
  "nav.fb":"Fan page","cta.fb":"Facebook page",
  "cls.drag":"Drag to turn",
- "nav.download":"Download","nav.new":"What's new","nav.changelog":"Changelog","nav.install":"How to install","nav.faq":"FAQ","nav.get":"Play now",
+ "nav.download":"Download","nav.new":"What's new","nav.changelog":"Changelog","nav.install":"How to install","nav.guide":"Game guide","nav.faq":"FAQ","nav.get":"Play now",
  "hero.kicker":"Open beta · Android",
  "hero.desc":"Three schools. Four classes. Pick your side, fight school and guild wars, and talk to your team in voice chat. Sign in with Google and play right away.",
  "cta.android":"Android · Download","cta.ios":"iPhone · Coming soon","cta.androidapk":"Download for Android (APK)","cta.howto":"How to install","cta.downloadapk":"Download APK","cta.contact":"Contact the team",
@@ -129,7 +129,7 @@ en: {
 "zh-CN": {
  "nav.fb":"粉丝页","cta.fb":"Facebook 粉丝页",
  "cls.drag":"拖动旋转",
- "nav.download":"下载","nav.new":"新内容","nav.changelog":"更新日志","nav.install":"安装方法","nav.faq":"常见问题","nav.get":"立即游戏",
+ "nav.download":"下载","nav.new":"新内容","nav.changelog":"更新日志","nav.install":"安装方法","nav.guide":"游戏指南","nav.faq":"常见问题","nav.get":"立即游戏",
  "hero.kicker":"公测开启 · Android","hero.desc":"三大学院，四大职业。选择你的阵营，参加学院战与公会战，并在游戏内用语音与队友交流。使用 Google 账号即可直接登录游玩。",
  "cta.android":"Android · 下载","cta.ios":"iPhone · 即将推出","cta.androidapk":"下载 Android 版 (APK)","cta.howto":"安装方法","cta.downloadapk":"下载 APK","cta.contact":"联系团队",
  "stat.version":"最新版本","stat.updated":"更新日期","card.sub":"Android · 免费游玩","card.version":"版本","card.price":"价格","card.free":"免费","card.android":"系统","card.login":"登录","card.loginv":"Google / 游戏账号","card.where":"当前","card.wherev":"公测 · 泰国服务器","card.note":"游戏会自动更新。角色保存在服务器上，不会丢失。",
@@ -160,7 +160,7 @@ en: {
 "zh-TW": {
  "nav.fb":"粉絲專頁","cta.fb":"Facebook 粉絲專頁",
  "cls.drag":"拖曳旋轉",
- "nav.download":"下載","nav.new":"新內容","nav.changelog":"更新日誌","nav.install":"安裝方法","nav.faq":"常見問題","nav.get":"立即遊玩",
+ "nav.download":"下載","nav.new":"新內容","nav.changelog":"更新日誌","nav.install":"安裝方法","nav.guide":"遊戲指南","nav.faq":"常見問題","nav.get":"立即遊玩",
  "hero.kicker":"公測開啟 · Android","hero.desc":"三大學院，四大職業。選擇你的陣營，參加學院戰與公會戰，並在遊戲內用語音與隊友交流。使用 Google 帳號即可直接登入遊玩。",
  "cta.android":"Android · 下載","cta.ios":"iPhone · 即將推出","cta.androidapk":"下載 Android 版 (APK)","cta.howto":"安裝方法","cta.downloadapk":"下載 APK","cta.contact":"聯絡團隊",
  "stat.version":"最新版本","stat.updated":"更新日期","card.sub":"Android · 免費遊玩","card.version":"版本","card.price":"價格","card.free":"免費","card.android":"系統","card.login":"登入","card.loginv":"Google / 遊戲帳號","card.where":"目前","card.wherev":"公測 · 泰國伺服器","card.note":"遊戲會自動更新。角色保存在伺服器上，不會遺失。",
@@ -191,7 +191,7 @@ en: {
 ko: {
  "nav.fb":"팬페이지","cta.fb":"Facebook 팬페이지",
  "cls.drag":"드래그해서 회전",
- "nav.download":"다운로드","nav.new":"새 소식","nav.changelog":"업데이트 내역","nav.install":"설치 방법","nav.faq":"FAQ","nav.get":"지금 플레이",
+ "nav.download":"다운로드","nav.new":"새 소식","nav.changelog":"업데이트 내역","nav.install":"설치 방법","nav.guide":"게임 가이드","nav.faq":"FAQ","nav.get":"지금 플레이",
  "hero.kicker":"오픈 베타 · Android","hero.desc":"세 개의 학원, 네 가지 클래스. 진영을 선택하고 학원전과 길드전에 참여하며 게임 안에서 음성으로 팀과 대화하세요. Google 계정으로 바로 시작할 수 있습니다.",
  "cta.android":"Android · 다운로드","cta.ios":"iPhone · 출시 예정","cta.androidapk":"Android 다운로드 (APK)","cta.howto":"설치 방법","cta.downloadapk":"APK 다운로드","cta.contact":"운영팀 문의",
  "stat.version":"최신 버전","stat.updated":"업데이트","card.sub":"Android · 무료 플레이","card.version":"버전","card.price":"가격","card.free":"무료","card.android":"시스템","card.login":"로그인","card.loginv":"Google / 게임 ID","card.where":"현재","card.wherev":"오픈 베타 · 태국 서버","card.note":"게임은 자동으로 업데이트됩니다. 캐릭터는 서버에 저장되어 사라지지 않습니다.",
@@ -222,7 +222,7 @@ ko: {
 ja: {
  "nav.fb":"ファンページ","cta.fb":"Facebook ページ",
  "cls.drag":"ドラッグで回転",
- "nav.download":"ダウンロード","nav.new":"新着情報","nav.changelog":"更新履歴","nav.install":"インストール方法","nav.faq":"FAQ","nav.get":"今すぐプレイ",
+ "nav.download":"ダウンロード","nav.new":"新着情報","nav.changelog":"更新履歴","nav.install":"インストール方法","nav.guide":"ゲームガイド","nav.faq":"FAQ","nav.get":"今すぐプレイ",
  "hero.kicker":"オープンベータ · Android","hero.desc":"3つの学園、4つのクラス。陣営を選び、学園戦とギルド戦に挑み、ゲーム内ボイスで仲間と話そう。Google アカウントですぐに始められます。",
  "cta.android":"Android · ダウンロード","cta.ios":"iPhone · 近日公開","cta.androidapk":"Android 版をダウンロード (APK)","cta.howto":"インストール方法","cta.downloadapk":"APK をダウンロード","cta.contact":"運営に問い合わせ",
  "stat.version":"最新版","stat.updated":"更新日","card.sub":"Android · 基本無料","card.version":"バージョン","card.price":"価格","card.free":"無料","card.android":"対応OS","card.login":"ログイン","card.loginv":"Google / ゲームID","card.where":"現在","card.wherev":"オープンベータ · タイサーバー","card.note":"ゲームは自動で更新されます。キャラクターはサーバーに保存され、消えません。",
@@ -253,7 +253,7 @@ ja: {
 vi: {
  "nav.fb":"Fanpage","cta.fb":"Fanpage Facebook",
  "cls.drag":"Kéo để xoay",
- "nav.download":"Tải về","nav.new":"Có gì mới","nav.changelog":"Nhật ký cập nhật","nav.install":"Cách cài","nav.faq":"Hỏi đáp","nav.get":"Chơi ngay",
+ "nav.download":"Tải về","nav.new":"Có gì mới","nav.changelog":"Nhật ký cập nhật","nav.install":"Cách cài","nav.guide":"Guide","nav.faq":"Hỏi đáp","nav.get":"Chơi ngay",
  "hero.kicker":"Mở thử nghiệm · Android","hero.desc":"Ba học viện. Bốn lớp nhân vật. Chọn phe, tham gia chiến tranh học viện và bang hội, trò chuyện bằng giọng nói với đồng đội ngay trong game. Đăng nhập bằng Google và chơi ngay.",
  "cta.android":"Android · Tải về","cta.ios":"iPhone · Sắp ra mắt","cta.androidapk":"Tải cho Android (APK)","cta.howto":"Cách cài","cta.downloadapk":"Tải APK","cta.contact":"Liên hệ đội ngũ",
  "stat.version":"Mới nhất","stat.updated":"Cập nhật","card.sub":"Android · Miễn phí","card.version":"Phiên bản","card.price":"Giá","card.free":"Miễn phí","card.android":"Hệ thống","card.login":"Đăng nhập","card.loginv":"Google / ID game","card.where":"Hiện tại","card.wherev":"Thử nghiệm mở · Máy chủ Thái","card.note":"Game tự cập nhật. Nhân vật lưu trên máy chủ, không bao giờ mất.",
@@ -284,7 +284,7 @@ vi: {
 id: {
  "nav.fb":"Fanpage","cta.fb":"Fanpage Facebook",
  "cls.drag":"Geser untuk memutar",
- "nav.download":"Unduh","nav.new":"Yang baru","nav.changelog":"Catatan pembaruan","nav.install":"Cara instal","nav.faq":"FAQ","nav.get":"Main sekarang",
+ "nav.download":"Unduh","nav.new":"Yang baru","nav.changelog":"Catatan pembaruan","nav.install":"Cara instal","nav.guide":"Guide","nav.faq":"FAQ","nav.get":"Main sekarang",
  "hero.kicker":"Open beta · Android","hero.desc":"Tiga sekolah. Empat kelas. Pilih pihakmu, ikuti perang sekolah dan guild, dan ngobrol dengan tim lewat voice chat di dalam game. Masuk dengan Google dan langsung main.",
  "cta.android":"Android · Unduh","cta.ios":"iPhone · Segera hadir","cta.androidapk":"Unduh untuk Android (APK)","cta.howto":"Cara instal","cta.downloadapk":"Unduh APK","cta.contact":"Hubungi tim",
  "stat.version":"Terbaru","stat.updated":"Diperbarui","card.sub":"Android · Gratis dimainkan","card.version":"Versi","card.price":"Harga","card.free":"Gratis","card.android":"Sistem","card.login":"Masuk","card.loginv":"Google / ID game","card.where":"Saat ini","card.wherev":"Open beta · Server Thailand","card.note":"Game memperbarui dirinya sendiri. Karakter tersimpan di server dan tidak akan hilang.",
@@ -315,7 +315,7 @@ id: {
 ms: {
  "nav.fb":"Fanpage","cta.fb":"Fanpage Facebook",
  "cls.drag":"Seret untuk memusing",
- "nav.download":"Muat turun","nav.new":"Apa yang baharu","nav.changelog":"Log kemas kini","nav.install":"Cara pasang","nav.faq":"Soalan","nav.get":"Main sekarang",
+ "nav.download":"Muat turun","nav.new":"Apa yang baharu","nav.changelog":"Log kemas kini","nav.install":"Cara pasang","nav.guide":"Guide","nav.faq":"Soalan","nav.get":"Main sekarang",
  "hero.kicker":"Beta terbuka · Android","hero.desc":"Tiga sekolah. Empat kelas. Pilih pihak anda, sertai perang sekolah dan guild, dan berbual dengan pasukan melalui sembang suara dalam permainan. Log masuk dengan Google dan terus bermain.",
  "cta.android":"Android · Muat turun","cta.ios":"iPhone · Akan datang","cta.androidapk":"Muat turun untuk Android (APK)","cta.howto":"Cara pasang","cta.downloadapk":"Muat turun APK","cta.contact":"Hubungi pasukan",
  "stat.version":"Terkini","stat.updated":"Dikemas kini","card.sub":"Android · Percuma dimainkan","card.version":"Versi","card.price":"Harga","card.free":"Percuma","card.android":"Sistem","card.login":"Log masuk","card.loginv":"Google / ID permainan","card.where":"Kini","card.wherev":"Beta terbuka · Pelayan Thailand","card.note":"Permainan dikemas kini sendiri. Watak disimpan di pelayan dan tidak akan hilang.",
