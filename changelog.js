@@ -1,5 +1,9 @@
 // Release notes, newest first. t: new | imp | fix. Text in Thai (th) and English (en); other languages show English.
 window.CHANGELOG = [
+ {v:"1.1.374", date:"2026-11-25", items:[
+  {t:"new", c:{th:"เติมเงิน",en:"Top-up"}, th:["ประวัติเติมเงิน","ดูยอดเติมรวม พ้อยที่ได้ สถานะแต่ละรายการ และยอดโปรสะสม 1K/3K/4K/6K"], en:["Top-up history","Lifetime total, points received, each payment's status and the 1K/3K/4K/6K promo progress."]},
+  {t:"fix", c:{th:"เกม",en:"Game"}, th:["แอปเด้งปิดเอง","แก้แอปปิดตัวเองระหว่างเล่นใน 1.1.373"], en:["App closing itself","Fixed the app closing itself in game on 1.1.373."]}
+ ]},
  {v:"1.1.373", date:"2026-11-25", items:[
   {t:"new", c:{th:"กาชา",en:"Gacha"}, th:["กาชาเข็มขัดวิญญาณมังกร","ตู้ใหม่ในหมวดเข็มขัด แทนตู้ต่างหูเดิม"], en:["Dragon Spirit belt gacha","A new belt gacha replaces the old earring gachas."]},
   {t:"imp", c:{th:"ตลาด",en:"Market"}, th:["แลกเกลือ 7 สูตร","NPC แลกเกลือมีสูตรแลกกล่องเพิ่ม และย้ายมายืนที่ใหม่"], en:["Scale exchange: 7 recipes","The scale exchange NPC has more box recipes and a new spot."]},
