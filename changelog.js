@@ -1,5 +1,10 @@
 // Release notes, newest first. t: new | imp | fix. Text in Thai (th) and English (en); other languages show English.
 window.CHANGELOG = [
+ {v:"1.1.378", date:"2026-11-26", items:[
+  {t:"fix", c:{th:"เข้าเกม",en:"Joining"}, th:["เห็นตัวละครทันทีหลังเข้าเกม","หน้าโหลดรอจนคนและมอนรอบตัวพร้อม พอเข้าแมพหรือวาร์ปจึงเห็นทุกคนเลย ไม่ค่อยๆ โผล่"], en:["Characters visible right away","The loading screen waits until nearby players and monsters are ready, so maps and warps no longer start empty."]},
+  {t:"imp", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["คนโผล่ไม่สะดุด","ท่าทางพื้นฐานของทุกคลาสเตรียมไว้ตอนโหลด และเครื่องสเปกต่ำสร้างคนที่เพิ่งโผล่ทีละจังหวะ ไม่ค้าง"], en:["No hitch when players appear","Base animations of every class are prepared while loading, and low-end phones build arriving players gradually."]},
+  {t:"imp", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["ลื่นขึ้นในตลาด","ป้ายร้านค้าใช้ CPU น้อยลง และท่าทางคนไกลคำนวณเร็วขึ้นด้วย Burst"], en:["Smoother in the market","Shop signs use less CPU and far players' poses are computed faster with Burst."]}
+ ]},
  {v:"1.1.377", date:"2026-11-25", items:[
   {t:"imp", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["มือถือสเปกต่ำลื่นขึ้น","เครื่องสเปกต่ำเริ่มลดจำนวนคนที่วาดทันทีที่ FPS ตก และอัปเดตคนที่ซ่อนอยู่น้อยลง"], en:["Smoother on low-end phones","Low-end phones start limiting drawn players as soon as FPS drops, and hidden players update less often."]},
   {t:"imp", c:{th:"กราฟิก",en:"Graphics"}, th:["ตั้งค่าเบาสำหรับเครื่องสเปกต่ำ","เครื่องสเปกต่ำใช้ชุดเบา 30 FPS นิ่ง ปิดแสงชุดและเงาคนอื่น เห็นสกิลเฉพาะของเรา (ปรับขึ้นเองได้ในตั้งค่า)"], en:["Light settings for low-end phones","Low-end phones use a light set at a steady 30 FPS, other players' outfit effects and shadows off, own skills only (can be raised in Options)."]},
