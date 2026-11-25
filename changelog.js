@@ -1,5 +1,9 @@
 // Release notes, newest first. t: new | imp | fix. Text in Thai (th) and English (en); other languages show English.
 window.CHANGELOG = [
+ {v:"1.1.369", date:"2026-11-25", items:[
+  {t:"new", c:{th:"กิลด์",en:"Guild"}, th:["ป็อปอัปคำขอเข้ากิลด์","หัวกิลด์ได้ป็อปอัปทันทีทุกแมพ กดรับเข้ากิลด์หรือปฏิเสธได้เลย ผู้สมัครได้คำตอบทันที"], en:["Guild request popup","Guild masters get a popup on any map to accept or decline; applicants hear back at once."]},
+  {t:"imp", c:{th:"กิลด์",en:"Guild"}, th:["เข้ากิลด์อัตโนมัติ","ถ้ารับแล้วแต่อยู่คนละที่ จะเชิญอัตโนมัติเมื่อเจอกันในแชนแนลเดียวกัน และผู้สมัครไม่ต้องกดยืนยันซ้ำ"], en:["Automatic join","If accepted while apart, the invite goes out automatically when you meet on the same channel, with no second confirm."]}
+ ]},
  {v:"1.1.368", date:"2026-11-25", items:[
   {t:"imp", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["ลื่นขึ้นในที่คนเยอะ","เอฟเฟคชุดและท่าทางของคนที่อยู่ไกลอัปเดตน้อยลง คนขี่พาหนะใช้เครื่องน้อยลงมาก"], en:["Smoother in crowds","Outfit effects and poses of far players update less often; riders cost far less."]},
   {t:"fix", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["กระตุกเป็นจังหวะในตลาด","ไม่สะดุดตอนผู้เล่นจำนวนมากเปลี่ยนท่ายืนหรือโผล่กลับมาพร้อมกัน"], en:["Regular stutter in the market","No hitch when many players change stance or come back into view together."]},
