@@ -1,5 +1,11 @@
 // Release notes, newest first. t: new | imp | fix. Text in Thai (th) and English (en); other languages show English.
 window.CHANGELOG = [
+ {v:"1.1.379", date:"2026-11-26", items:[
+  {t:"imp", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["ลื่นขึ้นมากตอนคนเยอะ","วาดเงาเฉพาะ 40 คนที่ใกล้ที่สุด และรวมโมเดลคนไกลได้มากขึ้น FPS สูงขึ้นในเมืองและตอนตีบอส"], en:["Much smoother in crowds","Shadows are drawn for the 40 nearest players only and more far players are merged, for higher FPS in towns and boss fights."]},
+  {t:"imp", c:{th:"กราฟิก",en:"Graphics"}, th:["วาดตัวละครเร็วขึ้น ภาพคมเหมือนเดิม","มือถือ RAM 8 GB ขึ้นไปรวมลายชุดของคนไกลเป็นแผ่นเดียว ลดงานวาดลงครึ่งหนึ่ง"], en:["Faster character drawing, same sharpness","Phones with 8 GB+ RAM combine far players' outfit textures into one, halving the draw work."]},
+  {t:"fix", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["ท่าทางคนไกลไม่เริ่มใหม่ทุกเฟรม","แก้ท่ายืนของบางคนที่ถูกเริ่มใหม่ซ้ำๆ ทำให้เปลือง CPU"], en:["Far poses no longer restart every frame","Fixed idle animations that kept restarting and wasted CPU."]},
+  {t:"fix", c:{th:"หน้าจอ",en:"Screen"}, th:["ปุ่มกดง่ายขึ้น","ปุ่มปิดของกาชา เติมเงิน และคลังเก็บของใหญ่ขึ้น ป้ายใต้ปุ่มฟลัด·เต้นและไมค์ไม่โดนแถบด้านล่างบัง"], en:["Easier buttons","Larger close buttons on gacha, top-up and storage, and the flood/dance and mic labels are no longer cut off by the bottom bar."]}
+ ]},
  {v:"1.1.378", date:"2026-11-26", items:[
   {t:"fix", c:{th:"เข้าเกม",en:"Joining"}, th:["เห็นตัวละครทันทีหลังเข้าเกม","หน้าโหลดรอจนคนและมอนรอบตัวพร้อม พอเข้าแมพหรือวาร์ปจึงเห็นทุกคนเลย ไม่ค่อยๆ โผล่"], en:["Characters visible right away","The loading screen waits until nearby players and monsters are ready, so maps and warps no longer start empty."]},
   {t:"imp", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["คนโผล่ไม่สะดุด","ท่าทางพื้นฐานของทุกคลาสเตรียมไว้ตอนโหลด และเครื่องสเปกต่ำสร้างคนที่เพิ่งโผล่ทีละจังหวะ ไม่ค้าง"], en:["No hitch when players appear","Base animations of every class are prepared while loading, and low-end phones build arriving players gradually."]},
