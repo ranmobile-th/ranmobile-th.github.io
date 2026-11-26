@@ -1,5 +1,9 @@
 // Release notes, newest first. t: new | imp | fix. Text in Thai (th) and English (en); other languages show English.
 window.CHANGELOG = [
+ {v:"1.1.382", date:"2026-11-26", items:[
+  {t:"imp", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["ภาพนิ่งกว่าบนจอ 120Hz","ถ้าเครื่องวิ่ง 120 FPS ไม่ไหว จะสลับจอเป็น 80Hz และวิ่ง 80 นิ่งทุกเฟรม แทนการสลับ 120/60 แล้วลอง 120 ใหม่เป็นระยะ"], en:["Steadier picture on 120 Hz screens","When a phone cannot hold 120 FPS it switches the screen to 80 Hz and runs an even 80 instead of jumping between 120 and 60, trying 120 again now and then."]},
+  {t:"fix", c:{th:"หน้าจอ",en:"Screen"}, th:["ไม่กระตุกตอนเปิดหน้าต่าง","การเตรียมตัวอักษรทำเฉพาะตอนหน้าโหลดแมพ"], en:["No stutter when opening windows","Letters are prepared only behind the map loading screen."]}
+ ]},
  {v:"1.1.381", date:"2026-11-26", items:[
   {t:"imp", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["FPS สูงขึ้นบนจอ 90/120Hz","เครื่องกลาง-แรงใช้ FPS สูงสุดตามจอเป็นค่าเริ่มต้น และตอนเครื่องอุ่นจะสลับจอไปโหมดที่รองรับ (เช่น 80Hz) แทนการตกไป 60"], en:["Higher FPS on 90/120 Hz screens","Mid and strong phones default to the screen's top frame rate, and when warm the screen moves to a rate it supports (such as 80 Hz) instead of dropping to 60."]},
   {t:"fix", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["ระบบลดภาระไม่ค้าง","ลดภาระอัตโนมัติและการจำกัด FPS กลับมาปกติเมื่อเครื่องไม่ร้อน และไม่ลดความละเอียดเองตอนหน้าโหลดแมพ"], en:["Load guard no longer sticks","Automatic load reduction and the FPS limit step back once the phone is not hot, and the loading screen no longer lowers resolution."]},
