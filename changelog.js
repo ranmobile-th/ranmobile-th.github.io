@@ -1,5 +1,8 @@
 // Release notes, newest first. t: new | imp | fix. Text in Thai (th) and English (en); other languages show English.
 window.CHANGELOG = [
+ {v:"1.1.388", date:"2026-11-26", items:[
+  {t:"new", c:{th:"กราฟิก",en:"Graphics"}, th:["ชุดกราฟิก \"แบบ PC\"","ภาพเรียบแบบแรน PC: ไม่มีเงาคนอื่น ไม่มีแสงเรือง/โพสต์ แสดงเต็มตัว 50 คนใกล้สุด FPS สูงสุดตามจอ"], en:["\"PC style\" graphics preset","A plain picture like the PC client: no other players' shadows, no glow or post effects, the nearest 50 players in full, the screen's top frame rate."]}
+ ]},
  {v:"1.1.387", date:"2026-11-26", items:[
   {t:"imp", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["คนไกลวาดด้วยการ์ดจอ","มือถือ RAM 8 GB ขึ้นไป: คนที่อยู่ไกลในที่คนเยอะให้การ์ดจอขยับท่าเอง CPU เบาลง ภาพเหมือนเดิม"], en:["Far players drawn by the GPU","Phones with 8 GB+ RAM: far players in crowds are animated by the graphics chip, lighter on the CPU with the same look."]}
  ]},
