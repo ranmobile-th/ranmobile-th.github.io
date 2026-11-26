@@ -1,5 +1,9 @@
 // Release notes, newest first. t: new | imp | fix. Text in Thai (th) and English (en); other languages show English.
 window.CHANGELOG = [
+ {v:"1.1.385", date:"2026-11-26", items:[
+  {t:"imp", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["ลื่นขึ้นตอนคนเยอะ","คนที่เดินออกแล้วกลับเข้ามาโผล่ทันที รวมโมเดลคนไกลเร็วขึ้น และเอฟเฟกต์/ป้ายชื่อที่ซ่อนอยู่ใช้เครื่องน้อยลง"], en:["Smoother in crowds","Players walking back into view appear at once, far players merge faster, and hidden effects and name tags cost less."]},
+  {t:"new", c:{th:"กราฟิก",en:"Graphics"}, th:["ปิดแสงเรืองตอนคนเยอะ","ตัวเลือกใหม่: เมื่อมีคน 150+ ปิดแสงเรืองและปรับสีชั่วคราวเพื่อให้ลื่นขึ้น (ค่าเริ่มต้นปิด)"], en:["Glow off in crowds","New option: with 150+ players around, glow and colour grading pause for a smoother game (off by default)."]}
+ ]},
  {v:"1.1.384", date:"2026-11-26", items:[
   {t:"fix", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["ไม่กระตุกตอนคนเดิน/วิ่งเยอะ","ระบบท่าทางคนไกลไม่สร้างข้อมูลทุกคนใหม่ทุกครั้งที่มีคนเข้าออกระยะ และจำการจับคู่ท่าไว้ใช้ซ้ำ"], en:["No stutter when crowds walk or run","Far players' pose system no longer rebuilds everyone when someone comes or goes, and reuses each clip's bone match."]}
  ]},
