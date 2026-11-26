@@ -1,5 +1,8 @@
 // Release notes, newest first. t: new | imp | fix. Text in Thai (th) and English (en); other languages show English.
 window.CHANGELOG = [
+ {v:"1.1.387", date:"2026-11-26", items:[
+  {t:"imp", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["คนไกลวาดด้วยการ์ดจอ","มือถือ RAM 8 GB ขึ้นไป: คนที่อยู่ไกลในที่คนเยอะให้การ์ดจอขยับท่าเอง CPU เบาลง ภาพเหมือนเดิม"], en:["Far players drawn by the GPU","Phones with 8 GB+ RAM: far players in crowds are animated by the graphics chip, lighter on the CPU with the same look."]}
+ ]},
  {v:"1.1.386", date:"2026-11-26", items:[
   {t:"new", c:{th:"กระเป๋า",en:"Bag"}, th:["ถังขยะรีไซเคิล","บัตรถังขยะมีปุ่มใช้แล้ว เปิดหน้าต่าง 5 ช่องแบบ PC เลือกไอเทมที่ทิ้งได้แล้วยืนยันลบ"], en:["Recycle bin","The trash card now has a use button and opens the PC-style 5-slot window: pick trashable items and confirm."]},
   {t:"fix", c:{th:"การเดิน",en:"Movement"}, th:["วิ่งเร็วแล้วไม่โดนดึงกลับ","ความเร็วที่แอปคุมไม่แกว่งแล้ว และระยะคลาดเล็กน้อยค่อยๆ เลื่อนเข้าแทนการกระตุก"], en:["No pull-back at high speed","The app keeps a steady speed and small corrections slide in instead of jumping."]},
