@@ -1,5 +1,10 @@
 // Release notes, newest first. t: new | imp | fix. Text in Thai (th) and English (en); other languages show English.
 window.CHANGELOG = [
+ {v:"1.1.386", date:"2026-11-26", items:[
+  {t:"new", c:{th:"กระเป๋า",en:"Bag"}, th:["ถังขยะรีไซเคิล","บัตรถังขยะมีปุ่มใช้แล้ว เปิดหน้าต่าง 5 ช่องแบบ PC เลือกไอเทมที่ทิ้งได้แล้วยืนยันลบ"], en:["Recycle bin","The trash card now has a use button and opens the PC-style 5-slot window: pick trashable items and confirm."]},
+  {t:"fix", c:{th:"การเดิน",en:"Movement"}, th:["วิ่งเร็วแล้วไม่โดนดึงกลับ","ความเร็วที่แอปคุมไม่แกว่งแล้ว และระยะคลาดเล็กน้อยค่อยๆ เลื่อนเข้าแทนการกระตุก"], en:["No pull-back at high speed","The app keeps a steady speed and small corrections slide in instead of jumping."]},
+  {t:"imp", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["ลื่นขึ้นตอนคนเยอะ","ไม่ลบรอยหยักซ้ำซ้อน และป้ายชื่อ/ป้ายร้านคำนวณตำแหน่งเร็วขึ้น ภาพเหมือนเดิม"], en:["Smoother in crowds","No double anti-aliasing, and name tags and shop signs are placed faster, same picture."]}
+ ]},
  {v:"1.1.385", date:"2026-11-26", items:[
   {t:"imp", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["ลื่นขึ้นตอนคนเยอะ","คนที่เดินออกแล้วกลับเข้ามาโผล่ทันที รวมโมเดลคนไกลเร็วขึ้น และเอฟเฟกต์/ป้ายชื่อที่ซ่อนอยู่ใช้เครื่องน้อยลง"], en:["Smoother in crowds","Players walking back into view appear at once, far players merge faster, and hidden effects and name tags cost less."]},
   {t:"new", c:{th:"กราฟิก",en:"Graphics"}, th:["ปิดแสงเรืองตอนคนเยอะ","ตัวเลือกใหม่: เมื่อมีคน 150+ ปิดแสงเรืองและปรับสีชั่วคราวเพื่อให้ลื่นขึ้น (ค่าเริ่มต้นปิด)"], en:["Glow off in crowds","New option: with 150+ players around, glow and colour grading pause for a smoother game (off by default)."]}
