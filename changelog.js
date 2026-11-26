@@ -1,5 +1,12 @@
 // Release notes, newest first. t: new | imp | fix. Text in Thai (th) and English (en); other languages show English.
 window.CHANGELOG = [
+ {v:"1.1.381", date:"2026-11-26", items:[
+  {t:"imp", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["FPS สูงขึ้นบนจอ 90/120Hz","เครื่องกลาง-แรงใช้ FPS สูงสุดตามจอเป็นค่าเริ่มต้น และตอนเครื่องอุ่นจะสลับจอไปโหมดที่รองรับ (เช่น 80Hz) แทนการตกไป 60"], en:["Higher FPS on 90/120 Hz screens","Mid and strong phones default to the screen's top frame rate, and when warm the screen moves to a rate it supports (such as 80 Hz) instead of dropping to 60."]},
+  {t:"fix", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["ระบบลดภาระไม่ค้าง","ลดภาระอัตโนมัติและการจำกัด FPS กลับมาปกติเมื่อเครื่องไม่ร้อน และไม่ลดความละเอียดเองตอนหน้าโหลดแมพ"], en:["Load guard no longer sticks","Automatic load reduction and the FPS limit step back once the phone is not hot, and the loading screen no longer lowers resolution."]},
+  {t:"fix", c:{th:"เข้าเกม",en:"Joining"}, th:["ไม่กระตุกหลังเข้าแมพ","โมเดลและท่าทางมอนเตรียมไว้ระหว่างหน้าโหลด"], en:["No stutter after entering a map","Monster models and animations are prepared during the loading screen."]},
+  {t:"fix", c:{th:"หน้าจอ",en:"Screen"}, th:["ข้อความไม่ทำให้กระตุก","ตัวอักษรไทยเตรียมไว้ล่วงหน้า และการล้างหน่วยความจำหนักทำไม่เกินนาทีละครั้ง"], en:["Text no longer causes stutters","Thai letters are prepared in advance, and heavy memory cleanup runs at most once a minute."]},
+  {t:"imp", c:{th:"กราฟิก",en:"Graphics"}, th:["เงาในที่คนเยอะ","เงาจริงถึง 24 เมตร คนที่ไกลกว่านั้นได้เงาวงกลม ทุกคนยังมีเงา"], en:["Shadows in crowds","Real shadows reach 24 m and players further away get round shadows, so everyone keeps a shadow."]}
+ ]},
  {v:"1.1.380", date:"2026-11-26", items:[
   {t:"imp", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["เงาวงกลมสำหรับคนไกล","คนที่อยู่นอก 40 คนใกล้สุดมีเงากลมนุ่มใต้เท้า วาดรวมครั้งเดียว ไม่กินเครื่อง"], en:["Round shadows for far players","Players outside the nearest 40 get a soft round shadow under their feet, drawn all at once at almost no cost."]},
   {t:"imp", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["แมพเบาลง","ชิ้นส่วนแมพที่ใช้ลายเดียวกันวาดรวมกัน และของชิ้นเล็กที่อยู่หลังหมอกไม่ถูกวาด ภาพเหมือนเดิม"], en:["Lighter maps","Map pieces with the same texture are drawn together, and small objects hidden by the fog are skipped, with the same picture."]}
