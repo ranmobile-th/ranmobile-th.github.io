@@ -1,5 +1,8 @@
 // Release notes, newest first. t: new | imp | fix. Text in Thai (th) and English (en); other languages show English.
 window.CHANGELOG = [
+ {v:"1.1.390", date:"2026-11-26", items:[
+  {t:"imp", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["ลดอาการกระตุกตอนคนโผล่เยอะ","ป้ายชื่อทยอยขึ้นแทนการค้างทีเดียวตอนเข้าตลาดหรือที่คนเยอะ ป้ายร้านค้าในตลาดไม่คำนวณซ้ำตอนกล้องนิ่ง"], en:["Fewer hitches when crowds appear","Name plates appear over a few frames instead of freezing when entering a crowded market, and shop signs do no work while the camera stands still."]}
+ ]},
  {v:"1.1.389", date:"2026-11-26", items:[
   {t:"imp", c:{th:"หน้าจอ",en:"Screen"}, th:["มุมกล้องใกล้ขึ้น ป้ายชื่ออ่านง่ายขึ้น","ซูมออกได้สุด 12 เมตร ไอคอน MMR ใหญ่และคมขึ้น พื้นหลังป้ายชื่อเข้มขึ้น"], en:["Closer camera, clearer names","Zoom out to 12 m at most, a larger and sharper MMR icon, and darker name plates."]}
  ]},
