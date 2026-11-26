@@ -1,5 +1,8 @@
 // Release notes, newest first. t: new | imp | fix. Text in Thai (th) and English (en); other languages show English.
 window.CHANGELOG = [
+ {v:"1.1.389", date:"2026-11-26", items:[
+  {t:"imp", c:{th:"หน้าจอ",en:"Screen"}, th:["มุมกล้องใกล้ขึ้น ป้ายชื่ออ่านง่ายขึ้น","ซูมออกได้สุด 12 เมตร ไอคอน MMR ใหญ่และคมขึ้น พื้นหลังป้ายชื่อเข้มขึ้น"], en:["Closer camera, clearer names","Zoom out to 12 m at most, a larger and sharper MMR icon, and darker name plates."]}
+ ]},
  {v:"1.1.388", date:"2026-11-26", items:[
   {t:"new", c:{th:"กราฟิก",en:"Graphics"}, th:["ชุดกราฟิก \"แบบ PC\"","ภาพเรียบแบบแรน PC: ไม่มีเงาคนอื่น ไม่มีแสงเรือง/โพสต์ แสดงเต็มตัว 50 คนใกล้สุด FPS สูงสุดตามจอ"], en:["\"PC style\" graphics preset","A plain picture like the PC client: no other players' shadows, no glow or post effects, the nearest 50 players in full, the screen's top frame rate."]}
  ]},
