@@ -1,5 +1,9 @@
 // Release notes, newest first. t: new | imp | fix. Text in Thai (th) and English (en); other languages show English.
 window.CHANGELOG = [
+ {v:"1.1.383", date:"2026-11-26", items:[
+  {t:"fix", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["ไม่กระตุกตอนคนเดินเยอะ","งานจัดการฝูงชนแบ่งทำทีละส่วนทุกเฟรม แทนการทำทั้งหมดในเฟรมเดียว"], en:["No stutter when crowds walk","Crowd upkeep is spread over frames instead of landing in a single one."]},
+  {t:"imp", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["ลื่นขึ้นในตลาด","คนและป้ายชื่อที่อยู่ไกลในที่คนเยอะอัปเดตทุก 2 เฟรม โดยยังเดินถึงที่ตรงเวลา"], en:["Smoother in the market","Far players and their name tags in crowds update every other frame and still arrive on time."]}
+ ]},
  {v:"1.1.382", date:"2026-11-26", items:[
   {t:"imp", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["ภาพนิ่งกว่าบนจอ 120Hz","ถ้าเครื่องวิ่ง 120 FPS ไม่ไหว จะสลับจอเป็น 80Hz และวิ่ง 80 นิ่งทุกเฟรม แทนการสลับ 120/60 แล้วลอง 120 ใหม่เป็นระยะ"], en:["Steadier picture on 120 Hz screens","When a phone cannot hold 120 FPS it switches the screen to 80 Hz and runs an even 80 instead of jumping between 120 and 60, trying 120 again now and then."]},
   {t:"fix", c:{th:"หน้าจอ",en:"Screen"}, th:["ไม่กระตุกตอนเปิดหน้าต่าง","การเตรียมตัวอักษรทำเฉพาะตอนหน้าโหลดแมพ"], en:["No stutter when opening windows","Letters are prepared only behind the map loading screen."]}
