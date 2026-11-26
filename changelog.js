@@ -1,5 +1,8 @@
 // Release notes, newest first. t: new | imp | fix. Text in Thai (th) and English (en); other languages show English.
 window.CHANGELOG = [
+ {v:"1.1.384", date:"2026-11-26", items:[
+  {t:"fix", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["ไม่กระตุกตอนคนเดิน/วิ่งเยอะ","ระบบท่าทางคนไกลไม่สร้างข้อมูลทุกคนใหม่ทุกครั้งที่มีคนเข้าออกระยะ และจำการจับคู่ท่าไว้ใช้ซ้ำ"], en:["No stutter when crowds walk or run","Far players' pose system no longer rebuilds everyone when someone comes or goes, and reuses each clip's bone match."]}
+ ]},
  {v:"1.1.383", date:"2026-11-26", items:[
   {t:"fix", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["ไม่กระตุกตอนคนเดินเยอะ","งานจัดการฝูงชนแบ่งทำทีละส่วนทุกเฟรม แทนการทำทั้งหมดในเฟรมเดียว"], en:["No stutter when crowds walk","Crowd upkeep is spread over frames instead of landing in a single one."]},
   {t:"imp", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["ลื่นขึ้นในตลาด","คนและป้ายชื่อที่อยู่ไกลในที่คนเยอะอัปเดตทุก 2 เฟรม โดยยังเดินถึงที่ตรงเวลา"], en:["Smoother in the market","Far players and their name tags in crowds update every other frame and still arrive on time."]}
