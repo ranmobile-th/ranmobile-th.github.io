@@ -1,5 +1,8 @@
 // Release notes, newest first. t: new | imp | fix. Text in Thai (th) and English (en); other languages show English.
 window.CHANGELOG = [
+ {v:"1.1.391", date:"2026-11-26", items:[
+  {t:"fix", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["แก้อาการค้างแวบในตลาด","คนไกลที่เปลี่ยนท่าใหม่ไม่ทำให้เกมค้างแล้ว และคนที่เพิ่งเดินเข้าจอจะสร้างตัวทีละขั้น ไม่ค้างทีเดียว"], en:["Fewer hitches in the market","Far players switching to a new pose no longer freeze the game, and players walking into view are built one step at a time."]}
+ ]},
  {v:"1.1.390", date:"2026-11-26", items:[
   {t:"imp", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["ลดอาการกระตุกตอนคนโผล่เยอะ","ป้ายชื่อทยอยขึ้นแทนการค้างทีเดียวตอนเข้าตลาดหรือที่คนเยอะ ป้ายร้านค้าในตลาดไม่คำนวณซ้ำตอนกล้องนิ่ง"], en:["Fewer hitches when crowds appear","Name plates appear over a few frames instead of freezing when entering a crowded market, and shop signs do no work while the camera stands still."]}
  ]},
