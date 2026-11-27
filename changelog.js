@@ -1,5 +1,8 @@
 // Release notes, newest first. t: new | imp | fix. Text in Thai (th) and English (en); other languages show English.
 window.CHANGELOG = [
+ {v:"1.1.394", date:"2026-11-27", items:[
+  {t:"fix", c:{th:"แชท",en:"Chat"}, th:["แชทตรงกับ PC มากขึ้น","ซ่อนช่องใน ⚙ มีผลเฉพาะแท็บทั้งหมด ประกาศ GM ขึ้นในแท็บระบบ แชทพื้นที่เสีย 50,000 เหมือน PC กระซิบหาตัวเองไม่ได้ และแจ้งเตือนเมื่อพิมพ์เร็วเกิน 3 ข้อความใน 5 วินาที"], en:["Chat closer to the PC client","Hiding a channel in ⚙ affects only the All tab, GM notices appear under System, regional chat costs 50,000 like PC, no whispers to yourself, and a warning when sending more than 3 messages in 5 seconds."]}
+ ]},
  {v:"1.1.393", date:"2026-11-27", items:[
   {t:"imp", c:{th:"หน้าจอ",en:"Screen"}, th:["ธงอยู่ระหว่างตราสถาบันกับชื่อ","ลำดับป้ายชื่อเป็น ตราสถาบัน - ธงชาติ - ชื่อ ธงสูงเท่าตราสถาบัน บอทก็มีธงด้วย"], en:["Flag between school mark and name","Name plates read school mark - flag - name, the flag as tall as the mark; bots show flags too."]}
  ]},
