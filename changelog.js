@@ -1,5 +1,8 @@
 // Release notes, newest first. t: new | imp | fix. Text in Thai (th) and English (en); other languages show English.
 window.CHANGELOG = [
+ {v:"1.1.392", date:"2026-11-27", items:[
+  {t:"new", c:{th:"หน้าจอ",en:"Screen"}, th:["ธงประเทศหน้าชื่อ","ธงหน้าชื่อผู้เล่นตามภาษาที่แต่ละคนเลือกในแอป"], en:["Country flag by names","A flag in front of each player's name, from the language that player picked in the app."]}
+ ]},
  {v:"1.1.391", date:"2026-11-26", items:[
   {t:"fix", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["แก้อาการค้างแวบในตลาด","คนไกลที่เปลี่ยนท่าใหม่ไม่ทำให้เกมค้างแล้ว และคนที่เพิ่งเดินเข้าจอจะสร้างตัวทีละขั้น ไม่ค้างทีเดียว"], en:["Fewer hitches in the market","Far players switching to a new pose no longer freeze the game, and players walking into view are built one step at a time."]}
  ]},
