@@ -1,5 +1,8 @@
 // Release notes, newest first. t: new | imp | fix. Text in Thai (th) and English (en); other languages show English.
 window.CHANGELOG = [
+ {v:"1.1.395", date:"2026-11-27", items:[
+  {t:"fix", c:{th:"PK",en:"PK"}, th:["ชื่อสีฟ้าเซฟไทม์ตรงกับเซิร์ฟ","ชื่อสีฟ้าหลังเข้าแมพ 10 วินาที นับตามเวลาที่เซิร์ฟแจ้ง ไม่ค้างสีฟ้านานเกินตอนคนเยอะ"], en:["Safe-time cyan names match the server","The 10-second cyan name after entering a map now follows the server's clock and no longer stays cyan too long in crowds."]}
+ ]},
  {v:"1.1.394", date:"2026-11-27", items:[
   {t:"fix", c:{th:"แชท",en:"Chat"}, th:["แชทตรงกับ PC มากขึ้น","ซ่อนช่องใน ⚙ มีผลเฉพาะแท็บทั้งหมด ประกาศ GM ขึ้นในแท็บระบบ แชทพื้นที่เสีย 50,000 เหมือน PC กระซิบหาตัวเองไม่ได้ และแจ้งเตือนเมื่อพิมพ์เร็วเกิน 3 ข้อความใน 5 วินาที"], en:["Chat closer to the PC client","Hiding a channel in ⚙ affects only the All tab, GM notices appear under System, regional chat costs 50,000 like PC, no whispers to yourself, and a warning when sending more than 3 messages in 5 seconds."]}
  ]},
