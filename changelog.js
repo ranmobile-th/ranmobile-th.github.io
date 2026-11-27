@@ -1,5 +1,8 @@
 // Release notes, newest first. t: new | imp | fix. Text in Thai (th) and English (en); other languages show English.
 window.CHANGELOG = [
+ {v:"1.1.396", date:"2026-11-27", items:[
+  {t:"imp", c:{th:"หน้าจอ",en:"Screen"}, th:["พื้นหลังหน้าเลือกตัวละครใหม่","ภาพปราสาทยามค่ำคืนเต็มจอ ปราสาทอยู่กลางจอ"], en:["New character select background","A full-screen night castle picture with the castle in the middle."]}
+ ]},
  {v:"1.1.395", date:"2026-11-27", items:[
   {t:"fix", c:{th:"PK",en:"PK"}, th:["ชื่อสีฟ้าเซฟไทม์ตรงกับเซิร์ฟ","ชื่อสีฟ้าหลังเข้าแมพ 10 วินาที นับตามเวลาที่เซิร์ฟแจ้ง ไม่ค้างสีฟ้านานเกินตอนคนเยอะ"], en:["Safe-time cyan names match the server","The 10-second cyan name after entering a map now follows the server's clock and no longer stays cyan too long in crowds."]}
  ]},
