@@ -1,5 +1,8 @@
 // Release notes, newest first. t: new | imp | fix. Text in Thai (th) and English (en); other languages show English.
 window.CHANGELOG = [
+ {v:"1.1.393", date:"2026-11-27", items:[
+  {t:"imp", c:{th:"หน้าจอ",en:"Screen"}, th:["ธงอยู่ระหว่างตราสถาบันกับชื่อ","ลำดับป้ายชื่อเป็น ตราสถาบัน - ธงชาติ - ชื่อ ธงสูงเท่าตราสถาบัน บอทก็มีธงด้วย"], en:["Flag between school mark and name","Name plates read school mark - flag - name, the flag as tall as the mark; bots show flags too."]}
+ ]},
  {v:"1.1.392", date:"2026-11-27", items:[
   {t:"new", c:{th:"หน้าจอ",en:"Screen"}, th:["ธงประเทศหน้าชื่อ","ธงหน้าชื่อผู้เล่นตามภาษาที่แต่ละคนเลือกในแอป"], en:["Country flag by names","A flag in front of each player's name, from the language that player picked in the app."]}
  ]},
