@@ -1,5 +1,8 @@
 // Release notes, newest first. t: new | imp | fix. Text in Thai (th) and English (en); other languages show English.
 window.CHANGELOG = [
+ {v:"1.1.402", date:"2026-11-28", items:[
+  {t:"imp", c:{th:"หน้าจอ",en:"Screen"}, th:["ป้ายกิจกรรมมีเอฟเฟค","แสงวิ่งผ่าน แสงเรืองรอบขอบ แถบแสงขอบล่าง และไอคอนเรืองแสงตามสีของแต่ละกิจกรรม"], en:["Animated event cards","A light sweep, a breathing edge glow, a glowing bottom bar and a glowing icon in each event's colour."]}
+ ]},
  {v:"1.1.401", date:"2026-11-28", items:[
   {t:"imp", c:{th:"หน้าจอ",en:"Screen"}, th:["ป้ายกิจกรรมแบบใหม่","ป้าย Tyranny, Club War, Emperium และปุ่มย่อ ใช้กรอบขอบทองพื้นดำแบบเดียวกับป้ายประกาศเซิร์ฟ"], en:["New event cards","The Tyranny, Club War and Emperium cards and their fold button use the gold-rimmed dark style of the server announcement card."]}
  ]},
