@@ -1,5 +1,8 @@
 // Release notes, newest first. t: new | imp | fix. Text in Thai (th) and English (en); other languages show English.
 window.CHANGELOG = [
+ {v:"1.1.401", date:"2026-11-28", items:[
+  {t:"imp", c:{th:"หน้าจอ",en:"Screen"}, th:["ป้ายกิจกรรมแบบใหม่","ป้าย Tyranny, Club War, Emperium และปุ่มย่อ ใช้กรอบขอบทองพื้นดำแบบเดียวกับป้ายประกาศเซิร์ฟ"], en:["New event cards","The Tyranny, Club War and Emperium cards and their fold button use the gold-rimmed dark style of the server announcement card."]}
+ ]},
  {v:"1.1.400", date:"2026-11-28", items:[
   {t:"fix", c:{th:"AUTO",en:"AUTO"}, th:["AUTO วิ่งไปตีมอนเหมือนเดิม","เข้าแมพแล้วตัวละครอยู่โหมดวิ่งเสมอ AUTO จึงวิ่งไปหามอนในวง ไม่เดินช้า"], en:["AUTO runs to monsters again","Characters always enter a map running, so AUTO runs to monsters in its circle instead of walking."]}
  ]},
