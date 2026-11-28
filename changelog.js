@@ -1,5 +1,8 @@
 // Release notes, newest first. t: new | imp | fix. Text in Thai (th) and English (en); other languages show English.
 window.CHANGELOG = [
+ {v:"1.1.404", date:"2026-11-28", items:[
+  {t:"new", c:{th:"กิจกรรม",en:"Events"}, th:["หลอดเลือดหิน Emperium","เลือกเป้าหมายเป็นหิน Emperium แล้วจะเห็นไอคอนหินเหนือหัว สีทองไล่ขึ้นตามดาเมจที่หินโดน พร้อมตรากิลด์ที่ยึดอยู่ เหมือนเวอร์ชัน PC"], en:["Emperium crystal gauge","Targeting the Emperium crystal shows a crystal icon above it that fills with gold as it takes damage, with the holding guild's mark, as on PC."]}
+ ]},
  {v:"1.1.403", date:"2026-11-28", items:[
   {t:"new", c:{th:"กิจกรรม",en:"Events"}, th:["แมพ Emperium","เพิ่มแมพสนามรบ Emperium (แมพ 191) ในมือถือ เข้าร่วมกิจกรรม Emperium ได้แล้ว"], en:["Emperium map","Added the Emperium battlefield (map 191) so mobile players can join the Emperium event."]}
  ]},
