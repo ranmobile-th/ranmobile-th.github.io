@@ -1,5 +1,8 @@
 // Release notes, newest first. t: new | imp | fix. Text in Thai (th) and English (en); other languages show English.
 window.CHANGELOG = [
+ {v:"1.1.406", date:"2026-11-29", items:[
+  {t:"fix", c:{th:"แผนที่",en:"Maps"}, th:["แมพ Emperium ครบ","มีจุดวาร์ปและเอฟเฟควาร์ปครบ 10 จุด มีมินิแมพของแมพ Emperium และการ์ด Emperium Wars ในหน้าสงครามใช้รูปมินิแมพนี้"], en:["Emperium map complete","All 10 warp gates and their effects are in place, the Emperium map now has its minimap, and the Emperium Wars card on the war page shows it."]}
+ ]},
  {v:"1.1.405", date:"2026-11-28", items:[
   {t:"imp", c:{th:"กิจกรรม",en:"Events"}, th:["Emperium เหมือน PC","หินไม่มีหลอดเลือดแดงแล้ว เหลือไอคอนหิน ตีหินที่กิลด์ตัวเองยึดไม่ได้ ข้อความประกาศ ผู้ชนะ และป้าย Emperium ด้านบนตรงกับ PC"], en:["Emperium matches PC","The crystal shows only its crystal icon, your own guild's crystal cannot be attacked, and the notices, winner messages and Emperium card match PC."]}
  ]},
