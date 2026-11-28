@@ -1,5 +1,8 @@
 // Release notes, newest first. t: new | imp | fix. Text in Thai (th) and English (en); other languages show English.
 window.CHANGELOG = [
+ {v:"1.1.400", date:"2026-11-28", items:[
+  {t:"fix", c:{th:"AUTO",en:"AUTO"}, th:["AUTO วิ่งไปตีมอนเหมือนเดิม","เข้าแมพแล้วตัวละครอยู่โหมดวิ่งเสมอ AUTO จึงวิ่งไปหามอนในวง ไม่เดินช้า"], en:["AUTO runs to monsters again","Characters always enter a map running, so AUTO runs to monsters in its circle instead of walking."]}
+ ]},
  {v:"1.1.399", date:"2026-11-28", items:[
   {t:"imp", c:{th:"หน้าจอ",en:"Screen"}, th:["ปุ่มเข้าชุดกัน","ปุ่มออโต้ปั้มยาและปุ่มย่อแชทเป็นพื้นกระจกขอบทองแบบเดียวกับปุ่มขี่พาหนะและปุ่ม F1"], en:["Matching buttons","The auto-potion and chat buttons now use the same gold-rimmed glass style as the ride and F1 buttons."]}
  ]},
