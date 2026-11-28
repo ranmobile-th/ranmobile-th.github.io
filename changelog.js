@@ -1,5 +1,8 @@
 // Release notes, newest first. t: new | imp | fix. Text in Thai (th) and English (en); other languages show English.
 window.CHANGELOG = [
+ {v:"1.1.398", date:"2026-11-28", items:[
+  {t:"fix", c:{th:"หน้าจอ",en:"Screen"}, th:["หน้าเลือกตัวละครเรียบร้อยขึ้น","ชื่อเซิร์ฟอยู่ในกรอบบรรทัดเดียว และป้ายเลเวลในการ์ดตัวละครเห็นครบ"], en:["Tidier character select","The server name fits its pill on one line and the level badge on character cards shows in full."]}
+ ]},
  {v:"1.1.397", date:"2026-11-28", items:[
   {t:"fix", c:{th:"ประสิทธิภาพ",en:"Performance"}, th:["แก้กระตุกในตลาดคนเยอะ","ตอนคนจำนวนมากเปลี่ยนท่าพร้อมกัน เกมไม่ค้างแวบทุก 1-2 วินาทีแล้ว"], en:["No more stalls in crowded markets","Many players switching poses at once no longer freezes the game every second or two."]},
   {t:"imp", c:{th:"หน้าจอ",en:"Screen"}, th:["ตัวหนังสืออ่านง่ายขึ้น","ขยายตัวหนังสือที่เล็กเกินในหน้าตั้งค่า เติมเงิน กิลด์ กาชา และ HUD"], en:["Easier to read text","Small text in settings, top-up, guild, gacha and the HUD is larger."]},
